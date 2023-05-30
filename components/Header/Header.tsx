@@ -3,7 +3,7 @@ import {FiFilm, FiMenu, FiHome, FiUser, FiTv, FiHeart, FiSearch} from 'react-ico
 import classNames from 'classnames'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { Search } from './Search'
+import { Search } from '../Search/Search'
 
 export const Header = () => {
 
@@ -24,9 +24,7 @@ export const Header = () => {
                     <div className={styles.burger}>
                         <FiMenu />
                     </div>
-                    <Link href="/">
-                        <a className={styles.logo}>Kinomore</a>
-                    </Link>
+                    <span className={styles.logo}>Kinomore</span>
                     <div className={styles.dropdown}>
                         <ul className={classNames('list-reset', styles.dropdownList)}>
                             {items.map(el => (
