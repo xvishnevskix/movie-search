@@ -1,4 +1,9 @@
 .header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 200;
     background-color: var(--color-dark);
 }
 
@@ -14,9 +19,8 @@
     }
 }
 
-.top {
+.menu {
     position: relative;
-    z-index: 100;
     display: flex;
     align-items: center;
     padding-top: 22px;
@@ -26,13 +30,6 @@
         width: 100%;
         background-color: #333;
         padding: 20px var(--container-offset);
-    }
-
-    &:hover {
-        .dropdown {
-            opacity: 1;
-            visibility: visible;
-        }
     }
 }
 
@@ -46,6 +43,12 @@
     width: 24px;
     height: 24px;
     opacity: 0.6;
+    color: #fff;
+    transition: opacity 0.3s;
+
+    &:hover {
+        opacity: 1;
+    }
 
     @media (max-width: 768px) {
         width: 20px;
@@ -83,16 +86,23 @@
     opacity: 0;
     visibility: hidden;
     width: 240px;
-    padding: 80px 25px 30px;
+    padding: 85px 25px 30px;
     border-radius: 0 0 10px 10px;
     background-color: var(--color-light-dark);
     box-shadow: 0 3.4rem 2.5rem rgb(0 0 0 / 12%), 0 1.2rem 3.2rem rgb(0 0 0 / 16%), 0 5rem 5.6rem rgb(0 0 0 / 24%);
     transition: opacity 0.3s, visibility 0.3s;
 
+    &Open {
+        opacity: 1;
+        visibility: visible;
+    }
+
     @media (max-width: 768px) {
         box-shadow: none;
         width: 100%;
         left: 0;
+        padding-top: 80px;
+        padding-bottom: 25px;
         padding-left: var(--container-offset);
         padding-right: var(--container-offset);
         border-radius: 0;
@@ -116,6 +126,7 @@
     font-weight: 400;
     color: #fff;
     opacity: 0.8;
+    transition: opacity 0.3s;
 
     &:before {
         content: "";

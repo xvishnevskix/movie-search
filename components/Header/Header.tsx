@@ -1,11 +1,22 @@
 import styles from './Header.module.scss'
-import {FiFilm, FiMenu, FiHome, FiUser, FiTv, FiHeart, FiSearch} from 'react-icons/fi'
+import {FiFilm, FiMenu, FiHome, FiUser, FiTv, FiHeart} from 'react-icons/fi'
 import classNames from 'classnames'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { Search } from '../Search/Search'
+import { useRef, useState } from 'react'
+import { useOnClickOutside } from 'usehooks-ts'
 
 export const Header = () => {
+
+    const ref = useRef(null)
+    const router = useRouter()
+    const [open, setOpen] = useState(false);
+    const handleOpen = () => {
+        setOpen(!open)
+    }
+
+    useOnClickOutside(ref, () => setOpen(false))
 
     const items = [
         {icon: <FiHome />, href: '/', text: 'Главная'},
@@ -15,17 +26,18 @@ export const Header = () => {
         {icon: <FiUser />, href: '/auth', text: 'Войти'}
     ]
 
-    const router = useRouter()
-
     return (
-        <header className={styles.header}>
+        <header ref={ref} className={styles.header}>
             <div className={classNames('container', styles.container)}>
-                <div className={styles.top}>
-                    <div className={styles.burger}>
+                <div ref={ref} className={styles.menu}>
+                    <button
+                        className={classNames('btn-reset', styles.burger)}
+                        onClick={handleOpen}
+                    >
                         <FiMenu />
-                    </div>
+                    </button>
                     <span className={styles.logo}>Kinomore</span>
-                    <div className={styles.dropdown}>
+                    <div className={classNames(styles.dropdown, open && styles.dropdownOpen)}>
                         <ul className={classNames('list-reset', styles.dropdownList)}>
                             {items.map(el => (
                                 <li key={el.text} className={styles.dropdownItem}>
