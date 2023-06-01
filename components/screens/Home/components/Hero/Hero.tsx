@@ -1,58 +1,42 @@
 import classNames from 'classnames'
-import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
-import { FiPlay, FiBookmark } from 'react-icons/fi'
-import { useGetPopularFilmQuery } from '../../../../../services/KinopoiskService'
+import { FiArrowRight } from 'react-icons/fi'
 import styles from './Hero.module.scss'
-import LinesEllipsis from 'react-lines-ellipsis'
+import { useRef } from 'react'
+import { useEffect } from 'react'
 
 export const Hero = () => {
 
-  const {data, isLoading, isError} = useGetPopularFilmQuery('')
+  const videoRef = useRef<HTMLVideoElement>(null)
+  const trailerUrl = require('../../../../../public/trailer.mp4')
 
-  const {backdrop, shortDescription, name, description} = {...data}
-
-  console.log(data);
-
-  const HeroContent = () => (
-    <>
-      <h2 className={classNames('g-title', styles.title)}>{name}</h2>
-      <LinesEllipsis
-        text={shortDescription ? shortDescription : description}
-        className={styles.desc}
-        maxLine={5}   
-      />
-      <div className={styles.btns}>
-        <Link href=''>
-          <a className={classNames('g-btn', styles.btn)}>
-            <FiPlay />
-            Смотреть
-          </a>
-        </Link>
-        <Link href=''>
-          <a className={classNames('g-btn g-btn--white', styles.btn)}>
-            <FiBookmark />
-            Добавить в избранное
-          </a>
-        </Link>
-      </div>
-    </>
-  )
+  useEffect(() => {
+    videoRef.current?.play()
+  }, [])
 
   return (
     <section className={styles.section}>
-      {!isLoading && !isError &&
-        <Image
-          className={styles.image}
-          src={backdrop?.url}
-          layout='fill'
-          alt={shortDescription}
-        />
-      }
+      <h1 className='visually-hidden'>Kinomore — бесплатные фильмы и сериалы</h1>
+      <video
+        ref={videoRef}
+        className={styles.video}
+        src={trailerUrl}
+        playsInline
+        muted
+        autoPlay
+        loop
+      >
+      </video>
       <div className={classNames('container', styles.container)}>
         <div className={styles.content}>
-          {!isLoading && !isError && <HeroContent />}
+        <h2 className={classNames('g-title', styles.title)}>Доктор Стрэндж: В&nbsp;мультивселенной безумия</h2>
+        <p className={styles.desc}>Продолжение магических приключений Доктора Стрэнджа в новых мистических мирах и в противостоянии с новыми врагами.</p>
+        <Link href='/film/1219909'>
+          <a className={classNames('g-btn', styles.link)}>
+            Подробнее
+            <FiArrowRight />
+          </a>
+        </Link>
         </div>
       </div>
     </section>

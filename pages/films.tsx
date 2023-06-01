@@ -1,7 +1,11 @@
-const films = () => {
-  return (
-    <div></div>
-  )
-}
+import { NextPage } from "next";
 
-export default films
+const FilmsPage: NextPage = () => {
+  return (
+    <div>
+      Фильмы
+    </div>
+  );
+};
+
+export default FilmsPage;

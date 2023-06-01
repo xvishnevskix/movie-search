@@ -1,18 +1,21 @@
-import type { NextPage } from 'next'
+import { NextPage } from 'next';
 import { Home } from '../components/screens/Home/Home';
-import { getNewFilms, getPopularFilm } from '../services/KinopoiskService';
-import { wrapper } from '../store/store';
+import { getNewFilms, getNewSeries } from '../services/KinopoiskService';
+import { initStore  } from '../store/store';
 
 const Index: NextPage = () => {
-
   return (
     <Home />
   );
-}
+};
 
-export const getStaticProps = wrapper.getStaticProps(store => async () => {
+export async function getServerSideProps() {
+  const store = initStore()
+  
   await store.dispatch(getNewFilms.initiate(''))
-  await store.dispatch(getPopularFilm.initiate(''))
-})
+  await store.dispatch(getNewSeries.initiate(''))
 
-export default Index
+  return { props: { initialReduxState: store.getState()}
+}}
+
+export default Index;
