@@ -7,5 +7,5 @@ const CartoonsPage: NextPage = () => {
         </div>
     );
 };
-
+//yes
 export default CartoonsPage;
