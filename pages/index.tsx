@@ -1,30 +1,18 @@
 import type { NextPage } from 'next'
 import { Home } from '../components/screens/Home/Home';
-import { getFilms } from '../services/KinopoiskService';
+import { getNewFilms, getPopularFilm } from '../services/KinopoiskService';
 import { wrapper } from '../store/store';
-import { IFilms } from '../types/IData';
 
-interface IndexProps {
-  data: IFilms | undefined
-}
-
-const Index: NextPage<IndexProps> = ({data}) => {
+const Index: NextPage = () => {
 
   return (
-    <Home data={data} />
+    <Home />
   );
 }
 
 export const getStaticProps = wrapper.getStaticProps(store => async () => {
-  const state = await store.getState()
-
-  const { data } = await store.dispatch(getFilms.initiate(''))
-
-  return {
-    props: {
-      data
-    }
-  }
+  await store.dispatch(getNewFilms.initiate(''))
+  await store.dispatch(getPopularFilm.initiate(''))
 })
 
 export default Index

@@ -1,18 +1,12 @@
-import Image from "next/image";
-import { FC } from "react";
-import { IFilms } from "../../../types/IData";
-import { FilmItem } from "../../FilmItem/FilmItem";
-import { PopularFilms } from "./components/PopularFilms/PopularFilms";
+import { Hero } from "./components/Hero/Hero";
+import { NewMovies } from "./components/NewMovies/NewMovies";
 
-interface HomeProps {
-    data: IFilms | undefined
-}
-
-export const Home: FC<HomeProps> = ({data}) => {
+export const Home = () => {
 
     return (
-        <div className="container">
-            <PopularFilms films={data?.docs} />
-        </div>
+        <>
+            <Hero />
+            <NewMovies />
+        </>
     )
 }
