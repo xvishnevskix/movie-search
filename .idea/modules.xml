@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/kinomore-c180efc8fff35e6b6a1c1f94ced461468eb7e1b8.iml" filepath="$PROJECT_DIR$/.idea/kinomore-c180efc8fff35e6b6a1c1f94ced461468eb7e1b8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/cloud-storage-client.iml" filepath="$PROJECT_DIR$/.idea/cloud-storage-client.iml" />
     </modules>
   </component>
 </project>

@@ -1,5 +1,5 @@
 .item {
-    max-width: 222px;
+    max-width: 100%;
 }
 
 .top {
@@ -8,8 +8,25 @@
     height: 350px;
     margin-bottom: 20px;
 
+    @media (max-width: 1200px) {
+        height: 400px;
+    }
+
+    @media (max-width: 1024px) {
+        height: 380px;
+    }
+
+    @media (max-width: 768px) {
+        height: 500px;
+    }
+
     @media (max-width: 576px) {
+        height: 300px;
+    }
+
+    @media (max-width: 400px) {
         height: 250px;
+        margin-bottom: 15px;
     }
 }
 
@@ -83,6 +100,11 @@
     margin-bottom: 10px;
     color: var(--color-light-dark);
     transition: color 0.3s;
+
+    @media (max-width: 576px) {
+        font-size: 15px;
+        line-height: 20px;
+    }
 
     &:hover {
         color: var(--color-primary);
