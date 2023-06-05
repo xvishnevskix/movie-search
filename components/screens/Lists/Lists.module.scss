@@ -3,10 +3,10 @@
 }
 
 .wrapper {
-    padding: 60px 30px;
+    padding: 50px 30px;
 
     @media (max-width: 576px) {
-        padding: 35px 15px;
+        padding: 40px 15px;
     }
 }
 
@@ -19,6 +19,7 @@
     @media (max-width: 768px) {
         align-items: flex-start;
         flex-direction: column;
+        margin-bottom: 20px;
     }
 
     @media (max-width: 576px) {
@@ -30,7 +31,9 @@
     font-weight: 800;
 
     @media (max-width: 768px) {
-        margin-bottom: 20px;
+        font-size: 25px;
+        line-height: 25px;
+        margin-bottom: 15px;
     }
 }
 
@@ -39,12 +42,23 @@
     align-items: center;
     overflow-x: auto;
     overflow-y: auto;
-    height: 40px;
+    height: 50px;
     max-width: 100%;
+    
+    @media (max-width: 768px) {
+        margin-left: calc((var(--container-offset) / -100) * 100) !important;
+        margin-right: calc((var(--container-offset) / -100) * 100) !important;
+        min-width: calc(100% + calc(var(--container-offset) * 2)) !important;
+        padding: 0 var(--container-offset);
+    }
 
     &Item {
         &:not(:last-child) {
             margin-right: 5px;
+
+            @media (max-width: 768px) {
+                margin-right: 0;
+            }
         }
     }
 

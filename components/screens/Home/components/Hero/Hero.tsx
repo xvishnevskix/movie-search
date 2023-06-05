@@ -1,14 +1,14 @@
-import classNames from 'classnames'
-import Link from 'next/link'
 import { FiArrowRight } from 'react-icons/fi'
-import styles from './Hero.module.scss'
 import { useRef } from 'react'
 import { useEffect } from 'react'
+import { Button } from '@/components/Button/Button'
+import { Title } from '@/components/Title/Title'
+import classNames from 'classnames'
+import styles from './Hero.module.scss'
 
 export const Hero = () => {
 
   const videoRef = useRef<HTMLVideoElement>(null)
-  const trailerUrl = require('../../../../../public/trailer.mp4')
 
   useEffect(() => {
     videoRef.current?.play()
@@ -20,7 +20,7 @@ export const Hero = () => {
       <video
         ref={videoRef}
         className={styles.video}
-        src={trailerUrl}
+        src='/trailer.mp4'
         playsInline
         muted
         autoPlay
@@ -29,14 +29,12 @@ export const Hero = () => {
       </video>
       <div className={classNames('container', styles.container)}>
         <div className={styles.content}>
-        <h2 className={classNames('g-title', styles.title)}>Доктор Стрэндж: В&nbsp;мультивселенной безумия</h2>
+        <Title variant='h2' classN={styles.title}>Доктор Стрэндж: В&nbsp;мультивселенной безумия</Title>
         <p className={styles.desc}>Продолжение магических приключений Доктора Стрэнджа в новых мистических мирах и в противостоянии с новыми врагами.</p>
-        <Link href='/film/1219909'>
-          <a className={classNames('g-btn', styles.link)}>
-            Подробнее
-            <FiArrowRight />
-          </a>
-        </Link>
+        <Button href='/film/1219909'>
+          Подробнее
+          <FiArrowRight />
+        </Button>
         </div>
       </div>
     </section>

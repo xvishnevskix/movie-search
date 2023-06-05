@@ -1,8 +1,9 @@
 import classNames from 'classnames'
 import Link from 'next/link'
-import { CARTOONS_ROUTE, FILMS_ROUTE, SERIES_ROUTE } from '../../constants/routes'
-import { Logo } from '../Logo/Logo'
+import { CARTOONS_ROUTE, FILMS_ROUTE, SERIES_ROUTE } from '@/constants/routes'
+import { Logo } from '@/components/Logo/Logo'
 import styles from './Footer.module.scss'
+import { getCurrentYear } from '@/helpers/getCurrentYear/getCurrentYear'
 
 export const Footer = () => {
   return (
@@ -26,7 +27,7 @@ export const Footer = () => {
             </Link>
           </li>
         </ul>
-        <span className={styles.copy}>© 2022 Kinomore</span>
+        <span className={styles.copy}>© {getCurrentYear()} Kinomore</span>
       </div>
     </footer>
   )

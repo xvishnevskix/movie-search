@@ -1,9 +1,10 @@
-import classNames from 'classnames'
-import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { FC, ReactNode } from 'react'
-import { CARTOONS_ROUTE, FILMS_ROUTE, SERIES_ROUTE, YEARS_ROUTE } from '../../../constants/routes'
+import { CARTOONS_ROUTE, FILMS_ROUTE, SERIES_ROUTE, YEARS_ROUTE } from '@/constants/routes'
+import { Title } from '@/components/Title/Title'
 import styles from './Lists.module.scss'
+import classNames from 'classnames'
+import Link from 'next/link'
 
 interface ListsProps {
   children: ReactNode
@@ -24,7 +25,7 @@ export const Lists: FC<ListsProps> = ({children}) => {
     <section className={styles.section}>
       <div className={classNames('container wrapper', styles.wrapper)}>
         <div className={styles.top}>
-          <h1 className={classNames('g-title', styles.title)}>Списки</h1>
+          <Title classN={styles.title}>Списки</Title>
           <ul className={classNames('list-reset', styles.nav)}>
             {items.map(el => (
               <li key={el.txt} className={styles.navItem}>
