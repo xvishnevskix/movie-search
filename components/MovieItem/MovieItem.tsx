@@ -38,14 +38,14 @@ export const MovieItem: FC<MovieItemProps> = ({item}) => {
             </div>
             <div className={styles.right}>
                 <span className={styles.rating}>
-                    {rating.imdb}
+                    {rating.kp}
                 </span>
                 <Button
                     variant='stroke'
                     className={styles.btn}
                 >
                     <FiBookmark />
-                    Буду смотреть
+                    В избранное
                 </Button>
             </div>
         </div>
