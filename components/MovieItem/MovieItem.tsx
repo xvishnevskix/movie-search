@@ -1,13 +1,13 @@
 import { FC } from 'react'
 import { FiBookmark } from 'react-icons/fi'
-import { IFilm } from '@/types/IFilm'
+import { IMovie } from '@/types/IMovie'
 import { Button } from '@/components/Button/Button'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from './MovieItem.module.scss'
 
 interface MovieItemProps {
-    item: IFilm
+    item: IMovie
 }
 
 export const MovieItem: FC<MovieItemProps> = ({item}) => {
@@ -31,7 +31,9 @@ export const MovieItem: FC<MovieItemProps> = ({item}) => {
                         <a className={styles.title}>{names[0].name}</a>
                     </Link>
                     <span className={styles.info}>{year}{movieLength && `, ${movieLength} мин.`}</span>
-                    <p className={styles.desc}>{shortDescription ? shortDescription : description}</p>
+                    <Link href={`/film/${item.id}`}>
+                        <a className={styles.desc}>{shortDescription ? shortDescription : description}</a>
+                    </Link>
                 </div>
             </div>
             <div className={styles.right}>
@@ -40,7 +42,7 @@ export const MovieItem: FC<MovieItemProps> = ({item}) => {
                 </span>
                 <Button
                     variant='stroke'
-                    classN={styles.btn}
+                    className={styles.btn}
                 >
                     <FiBookmark />
                     Буду смотреть

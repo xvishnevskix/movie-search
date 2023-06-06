@@ -1,4 +1,6 @@
 @import "vars";
+@import "mixins";
+@import "fonts";
 @import "global";
 @import "vendor";
 
@@ -11,5 +13,4 @@
 @import "./components/g-pagination";
 @import "./components/g-radio";
 @import "./components/list";
-@import "./components/catalog";
 @import "./components/noUi";
