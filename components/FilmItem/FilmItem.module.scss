@@ -5,27 +5,9 @@
 .top {
     position: relative;
     display: block;
-    height: 350px;
     margin-bottom: 20px;
 
-    @media (max-width: 1200px) {
-        height: 400px;
-    }
-
-    @media (max-width: 1024px) {
-        height: 380px;
-    }
-
-    @media (max-width: 768px) {
-        height: 500px;
-    }
-
-    @media (max-width: 576px) {
-        height: 300px;
-    }
-
     @media (max-width: 400px) {
-        height: 250px;
         margin-bottom: 15px;
     }
 }
@@ -36,6 +18,8 @@
     height: 100%;
     border-radius: 5px;
     overflow: hidden;
+    background-color: var(--color-dark);
+    cursor: pointer;
 
     &:hover {
         &:before {
@@ -71,13 +55,16 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
-    margin-bottom: 10px;
     color: var(--color-light-dark);
     transition: color 0.3s;
 
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
     @media (max-width: 576px) {
-        font-size: 15px;
-        line-height: 20px;
+        font-size: 16px;
+        line-height: 21px;
     }
 
     &:hover {

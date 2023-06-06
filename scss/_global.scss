@@ -125,5 +125,18 @@ a {
     left: 0;
     width: 100%;
     height: 5px;
-    background-color: var(--color-primary);
+    overflow: hidden;
+
+    @media (max-width: 576px) {
+        height: 3px;
+    }
+
+    div.bar {
+        height: inherit;
+        background-color: var(--color-primary);
+
+        .peg {
+            display: none;
+        }
+    }
 }

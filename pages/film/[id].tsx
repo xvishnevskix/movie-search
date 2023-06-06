@@ -2,10 +2,17 @@ import { GetServerSideProps, NextPage } from "next";
 import { Film } from "@/components/screens/Film/Film";
 import { getFilmById } from "@/services/KinopoiskService";
 import { initStore } from "@/store/store";
+import { Header } from "@/components/Header/Header";
+import { Footer } from "@/components/Footer/Footer";
 
 const FilmPage: NextPage = () => {
     return (
-        <Film />
+        <>
+            <Header />
+            <Film />
+            <Footer />
+        </>
+        
     )
 }
 

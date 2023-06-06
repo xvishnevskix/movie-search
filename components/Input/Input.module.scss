@@ -1,0 +1,25 @@
+.input {
+    border: 1px solid rgba(#000, .2);
+    border-radius: 10px;
+    padding: 0 15px;
+    height: 44px;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--color-text);
+
+    &::placeholder {
+        color: #a5a5ad;
+        opacity: 1;
+    }
+}
+
+.dark {
+    padding: 0 10px;
+    background-color: rgba(#000, 0.4);
+    height: 40px;
+    color: var(--color-white);
+
+    &::placeholder {
+        color: rgba(#fff, 0.5);
+    }
+}

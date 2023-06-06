@@ -49,6 +49,7 @@
     border-radius: 5px;
     overflow: hidden;
     margin-right: 20px;
+    background-color: var(--color-dark);
 }
 
 .title {
@@ -118,21 +119,10 @@
     font-size: 20px;
     line-height: 20px;
     font-weight: 600;
-    margin-right: 20px;
+    margin-right: 25px;
     margin-left: 5px;
-}
-
-.btn {
-    padding: 10px;
 
     @media (max-width: 576px) {
-        padding: 3px;
-        font-size: 0;        
-    }
-
-    svg {
-        @media (max-width: 576px) {
-            margin-right: 0;
-        }
+        margin-right: 15px;
     }
 }

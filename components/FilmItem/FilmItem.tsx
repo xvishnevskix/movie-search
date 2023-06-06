@@ -5,7 +5,7 @@ import {IMovie} from '@/types/IMovie'
 import {convertType} from '@/helpers/convertType/convertType'
 import {MovieRating} from '../MovieRating/MovieRating'
 import styles from './FilmItem.module.scss'
-import { MovieFavorite } from '../MovieFavorite/MovieFavorite'
+import Ratio from 'react-ratio';
 
 interface FilmItemProps {
     item: IMovie
@@ -13,26 +13,29 @@ interface FilmItemProps {
 
 export const FilmItem: FC<FilmItemProps> = ({item}) => {
 
+    const {id, poster, description, year, name, enName, type, rating} = {...item}
+
     return (
         <li className={styles.item}>
             <div className={styles.top}>
-                <Link href={`/film/${item.id}`}>
-                    <a className={styles.imageContainer}>
-                        <Image
-                            className={styles.image}
-                            layout='fill'
-                            src={item.poster.previewUrl}
-                            alt={item.description}
-                        />
-                    </a>
+                <Link href={`/film/${id}`}>
+                    <Ratio ratio={2/3}>
+                        <a className={styles.imageContainer}>
+                            <Image
+                                className={styles.image}
+                                layout='fill'
+                                src={poster.previewUrl}
+                                alt={description}
+                            />
+                        </a>
+                    </Ratio>
                 </Link>
-                <MovieRating rating={item.rating} />
-                <MovieFavorite id={item.id} />
+                {rating && <MovieRating rating={rating} />}
             </div>
-            <Link href={`/film/${item.id}`}>
-                <a className={styles.title}>{item.names[0]?.name}</a>
+            <Link href={`/film/${id}`}>
+                <a className={styles.title}>{name ? name : enName}</a>
             </Link>
-            <span className={styles.info}>{item.year}, {convertType(item.type)}</span>
+            {type?.length && <span className={styles.info}>{year && `${year}, `} {convertType(type)}</span>}
         </li>
     )
 }

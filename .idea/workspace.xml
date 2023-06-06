@@ -1,51 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Select/Select.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/cartoons/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/films/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/series/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/ISelectValue.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Catalog/Catalog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Catalog/Catalog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/FilmItem/FilmItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/FilmItem/FilmItem.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/FilmItem/FilmItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/FilmItem/FilmItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Filters/Filters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Filters/Filters.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/MovieItem/MovieItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/MovieItem/MovieItem.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/MovieItem/MovieItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/MovieItem/MovieItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Search/Search.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Search/Search.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Film/Film.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Film/Film.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Film/Film.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Film/Film.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Films/components/AllFilms/AllFilms.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Films/components/ComedyFilms/ComedyFilms.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Films/components/HorrorFilms/HorrorFilms.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Films/components/WarFilms/WarFilms.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Lists/Lists.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Lists/Lists.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/SearchResults/SearchResults.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Years/Years.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/convertType/convertType.ts" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/convertType/convertType.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/lists/categories/movies/cartoons/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/lists/categories/movies/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/lists/categories/movies/series/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/lists/categories/movies/years/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/lists/movies/all_films/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/lists/movies/comedy_films/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/lists/movies/horror_films/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/lists/movies/war_films/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_vendor.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_noUi.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/vendor/noUi.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/KinopoiskService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/services/KinopoiskService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/reducers/filtersSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/reducers/filtersSlice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/IMovie.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/IMovie.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/ISearchArgs.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +57,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686038488793</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update page film">
+      <created>1686038683189</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686038683189</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -111,6 +74,7 @@
     <MESSAGE value="window filters complete" />
     <MESSAGE value="fix fonts" />
     <MESSAGE value="fix slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix slider" />
+    <MESSAGE value="update page film" />
+    <option name="LAST_COMMIT_MESSAGE" value="update page film" />
   </component>
 </project>
