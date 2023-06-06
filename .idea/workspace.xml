@@ -2,80 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Catalog/Catalog.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Catalog/Catalog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Device/Device.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Device/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/screens/Films/components/AllFilms/AllFilms.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/useDevice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/lists/movies/all_films/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/FiraSans-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/FiraSans-ExtraBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/FiraSans-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/FiraSans-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/FiraSans-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/FiraSans-SemiBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/workbox-2780d724.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/_fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/mixins/_font-face.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/IFilter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/IMovie.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/BackBtn/BackBtn.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/BackBtn/BackBtn.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Select/Select.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/cartoons/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/films/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/series/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/ISelectValue.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Catalog/Catalog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Catalog/Catalog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/FilmItem/FilmItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/FilmItem/FilmItem.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/FilmItem/FilmItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/FilmItem/FilmItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Filter/Filter.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Filter/Filter.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Filters/Filters.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Filters/Filters.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Filters/Filters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Filters/Filters.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/FiltersToggle/FiltersToggle.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/FiltersToggle/FiltersToggle.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/FiltersToggle/FiltersToggle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/FiltersToggle/FiltersToggle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Input/Input.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Logo/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Logo/Logo.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/MovieItem/MovieItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/MovieItem/MovieItem.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/MovieItem/MovieItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/MovieItem/MovieItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Pagination/Pagination.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Pagination/Pagination.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Radio/Radio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Radio/Radio.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Slider/Slider.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Slider/Slider.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Slider/Slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Slider/Slider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Spinner/Spinner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Spinner/Spinner.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Title/Title.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Title/Title.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Search/Search.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Search/Search.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/screens/Film/Film.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Film/Film.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/screens/Film/Film.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Film/Film.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Films/Films.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Films/Films.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Films/components/ComedyFilms/ComedyFilms.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Films/components/ComedyFilms/ComedyFilms.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Films/components/HorrorFilms/HorrorFilms.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Films/components/HorrorFilms/HorrorFilms.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Films/components/WarFilms/WarFilms.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Films/components/WarFilms/WarFilms.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Home/components/Hero/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Home/components/Hero/Hero.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Home/components/NewMovies/NewMovies.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Home/components/NewMovies/NewMovies.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Home/components/NewSeries/NewSeries.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Home/components/NewSeries/NewSeries.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Lists/Lists.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Lists/Lists.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/NotFound/NotFound.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/NotFound/NotFound.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/SearchResults/SearchResults.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/SearchResults/SearchResults.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/SearchResults/SearchResults.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/SearchResults/SearchResults.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constants/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/Films/components/AllFilms/AllFilms.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/Films/components/ComedyFilms/ComedyFilms.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/Films/components/HorrorFilms/HorrorFilms.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/Films/components/WarFilms/WarFilms.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/Lists/Lists.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/Lists/Lists.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/SearchResults/SearchResults.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/Years/Years.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/convertType/convertType.ts" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/convertType/convertType.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/lists/movies/comedy_films/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/lists/movies/comedy_films/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/lists/movies/horror_films/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/lists/movies/horror_films/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/lists/movies/war_films/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/lists/movies/war_films/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/search/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/search/[id].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/sw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_g-btn.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_g-btn.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_g-pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_g-pagination.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_g-radio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_g-radio.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_noUi.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_noUi.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/lists/categories/movies/cartoons/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/lists/categories/movies/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/lists/categories/movies/series/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/lists/categories/movies/years/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/lists/movies/all_films/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/lists/movies/comedy_films/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/lists/movies/horror_films/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/lists/movies/war_films/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_vendor.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_noUi.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/vendor/noUi.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/services/KinopoiskService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/services/KinopoiskService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/actions.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/reducers/filtersSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/reducers/filtersSlice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/reducers/loadMoreSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/reducers/loadMoreSlice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/reducers/toggleSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/reducers/toggleSlice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/IData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/IData.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/IFilterArgs.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/IFilterArgs.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/IMovie.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/IMovie.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/ISearchArgs.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +56,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="ts.external.directory.path" value="C:\Users\V\Downloads\kinomore\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="add buttons load more, some refactoring &amp; update player">
@@ -119,7 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685960894473</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix fonts">
+      <created>1686038384493</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686038384493</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix slider">
+      <created>1686038488793</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686038488793</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -127,6 +109,8 @@
     <MESSAGE value="page lists complete" />
     <MESSAGE value="radio buttons in filters" />
     <MESSAGE value="window filters complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="window filters complete" />
+    <MESSAGE value="fix fonts" />
+    <MESSAGE value="fix slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix slider" />
   </component>
 </project>

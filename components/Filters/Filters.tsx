@@ -71,15 +71,15 @@ export const Filters = () => {
                         <div className={styles.radios}>
                             <Radio
                                 className={styles.radio}
-                                label='Сначала старые'
-                                value='1'
+                                label='Сначала новые'
+                                value='-1'
                                 sort={sort}
                                 changeHandler={setSort}
                             />
                             <Radio
                                 className={styles.radio}
-                                label='Сначала новые'
-                                value='-1'
+                                label='Сначала старые'
+                                value='1'
                                 sort={sort}
                                 changeHandler={setSort}
                             />
@@ -93,7 +93,7 @@ export const Filters = () => {
                     <Device mobile>
                         <div className={styles.btns}>
                             <Button className={styles.btn}>Применить</Button>
-                            <Button className={styles.btn} onClick={handleClose} variant='stroke'>Закрыть</Button>
+                            <Button type='button' className={styles.btn} onClick={handleClose} variant='stroke'>Закрыть</Button>
                         </div>
                     </Device>
                 </div>
