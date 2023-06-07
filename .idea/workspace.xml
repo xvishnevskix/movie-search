@@ -64,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686038683189</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="some fixes">
+      <created>1686039100630</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686039100630</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -75,6 +82,7 @@
     <MESSAGE value="fix fonts" />
     <MESSAGE value="fix slider" />
     <MESSAGE value="update page film" />
-    <option name="LAST_COMMIT_MESSAGE" value="update page film" />
+    <MESSAGE value="some fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some fixes" />
   </component>
 </project>
