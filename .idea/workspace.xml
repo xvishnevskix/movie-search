@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="" />
+    <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/components/SliderBtn/SliderBtn.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/SliderBtn/SliderBtn.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Device/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Device/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Filters/Filters.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Filters/Filters.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/FiltersToggle/FiltersToggle.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/FiltersToggle/FiltersToggle.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Input/Input.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Input/Input.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Input/Input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Message/Message.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Message/Message.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/MovieRating/MovieRating.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/MovieRating/MovieRating.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Pagination/Pagination.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Pagination/Pagination.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/PersonItem/PersonItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/PersonItem/PersonItem.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Radio/Radio.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Radio/Radio.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Search/Search.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Search/Search.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Select/Select.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Select/Select.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SimilarMovies/SimilarMovies.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/SimilarMovies/SimilarMovies.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Slider/Slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Slider/Slider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/Film/Film.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Film/Film.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/Film/components/FilmFacts/FilmFacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Film/components/FilmFacts/FilmFacts.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/Film/components/MainRoles/MainRoles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Film/components/MainRoles/MainRoles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/Home/components/Hero/Hero.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Home/components/Hero/Hero.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/Room/Room.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Room/Room.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/Room/Room.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Room/Room.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/Room/components/Chat/Chat.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Room/components/Chat/Chat.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/Room/components/Chat/Chat.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Room/components/Chat/Chat.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/Room/components/RoomHeader/RoomHeader.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Room/components/RoomHeader/RoomHeader.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/sw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_global.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,10 +41,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent">
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectId" id="2QsPXG1laK6eaYNVrG6h0jQvkcR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="add buttons load more, some refactoring &amp; update player">
       <created>1685706369472</created>
@@ -71,8 +116,26 @@
       <option name="project" value="LOCAL" />
       <updated>1686039100630</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="" />
+      <created>1686139375006</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686139375006</updated>
+      <workItem from="1686139381736" duration="757000" />
+    </task>
+    <task id="LOCAL-00009" summary="chat complete">
+      <created>1686139509317</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686139509317</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add buttons load more, some refactoring &amp; update player" />
@@ -83,6 +146,7 @@
     <MESSAGE value="fix slider" />
     <MESSAGE value="update page film" />
     <MESSAGE value="some fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="some fixes" />
+    <MESSAGE value="chat complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="chat complete" />
   </component>
 </project>

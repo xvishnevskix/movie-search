@@ -8,9 +8,8 @@ import styles from './Room.module.scss'
 export const Room = () => {
 
     const {query: {id}} = useRouter();
-
     const {data} = useGetFilmByIdQuery(id)
-    const { name } = { ...data };
+    const {name} = { ...data };
 
     useEffect(() => {
       const script = document.createElement("script");
@@ -22,8 +21,8 @@ export const Room = () => {
       <div className={styles.content}>
         <div className={styles.left}>
           <RoomHeader title={name} />
-          <div className={styles.video}>
-            <div id="kinobd" data-resize="1" data-bg="#000" data-kinopoisk={id}></div>
+          <div className={styles.videoContainer}>
+            <div className={styles.video} id="kinobd" data-resize="1" data-bg="#000" data-kinopoisk={id}></div>
           </div>
         </div>
         <Chat />
