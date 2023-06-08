@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Grid/Grid.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Grid/Grid.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/screens/Home/components/NewMovies/NewFilms.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/screens/Home/components/NewMovies/NewMovies.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/screens/Home/components/NewMovies/NewSeries.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Filters/Filters.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Filters/Filters.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Filters/Filters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Filters/Filters.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/MovieFavorite/MovieFavorite.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/MovieFavorite/MovieFavorite.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Film/Film.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Film/Film.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Film/Film.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Film/Film.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Home/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Room/components/Chat/Chat.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Room/components/Chat/Chat.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/sw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/KinopoiskService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/services/KinopoiskService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/reducers/loadMoreSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/reducers/loadMoreSlice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/screens/Favourites/Favourites.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/useFavourite.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/favourites.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686139375006</updated>
       <workItem from="1686139381736" duration="757000" />
-      <workItem from="1686203267520" duration="953000" />
+      <workItem from="1686203267520" duration="1284000" />
     </task>
     <task id="LOCAL-00009" summary="chat complete">
       <created>1686139509317</created>
@@ -136,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686203731310</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="page favourites complete">
+      <created>1686204305617</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686204305618</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +144,7 @@
     <MESSAGE value="chat complete" />
     <MESSAGE value="swiper buttons" />
     <MESSAGE value="swipeable filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="swipeable filter" />
+    <MESSAGE value="page favourites complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="page favourites complete" />
   </component>
 </project>
