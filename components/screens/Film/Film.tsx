@@ -47,11 +47,11 @@ export const Film = () => {
 					</Title>
 					<span className={styles.originalTitle}>{alternativeName}</span>
 					<div className={styles.btns}>
-						<Button href={`/room/${id}`} className={styles.btn} variant="regular">
+						<Button href={`/room/${data?.id}`} className={styles.btn} variant="regular">
 							<FiPlay />
 							Смотреть
 						</Button>
-						<MovieFavorite isFavourite={isFavourite} className={styles.btn} variant="regular" id={data?.id} />
+						<MovieFavorite isFavourite={isFavourite} className={styles.btn} variant="regular" id={Number(data?.id)} />
 					</div>
 					<Title variant="h2" className={styles.subtitle}>
 						О {convertType(type)}е
