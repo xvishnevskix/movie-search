@@ -1,38 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/SliderBtn/SliderBtn.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/SliderBtn/SliderBtn.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Device/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Device/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Filters/Filters.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Filters/Filters.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/FiltersToggle/FiltersToggle.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/FiltersToggle/FiltersToggle.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Input/Input.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Input/Input.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Input/Input.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Message/Message.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Message/Message.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/MovieRating/MovieRating.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/MovieRating/MovieRating.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Pagination/Pagination.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Pagination/Pagination.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/PersonItem/PersonItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/PersonItem/PersonItem.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Radio/Radio.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Radio/Radio.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Search/Search.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Search/Search.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Select/Select.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Select/Select.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/SimilarMovies/SimilarMovies.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/SimilarMovies/SimilarMovies.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Slider/Slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Slider/Slider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Film/Film.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Film/Film.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Film/components/FilmFacts/FilmFacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Film/components/FilmFacts/FilmFacts.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Film/components/MainRoles/MainRoles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Film/components/MainRoles/MainRoles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Home/components/Hero/Hero.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Home/components/Hero/Hero.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Room/Room.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Room/Room.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Room/Room.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Room/Room.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Room/components/Chat/Chat.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Room/components/Chat/Chat.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Room/components/Chat/Chat.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Room/components/Chat/Chat.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/screens/Room/components/RoomHeader/RoomHeader.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Room/components/RoomHeader/RoomHeader.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/sw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_global.scss" afterDir="false" />
-    </list>
+    <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,6 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686139375006</updated>
       <workItem from="1686139381736" duration="757000" />
+      <workItem from="1686203267520" duration="348000" />
     </task>
     <task id="LOCAL-00009" summary="chat complete">
       <created>1686139509317</created>
@@ -131,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686139509317</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="swiper buttons">
+      <created>1686203370364</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686203370364</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +124,7 @@
     <MESSAGE value="update page film" />
     <MESSAGE value="some fixes" />
     <MESSAGE value="chat complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="chat complete" />
+    <MESSAGE value="swiper buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="swiper buttons" />
   </component>
 </project>
