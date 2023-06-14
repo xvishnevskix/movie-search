@@ -1,7 +1,13 @@
-import {PropsWithChildren} from 'react'
+import { FC, ReactNode } from 'react'
+import { Header } from '@/components/Header/Header'
+import { Footer } from '@/components/Footer/Footer'
 import Head from 'next/head'
 
-export const Layout = ({ children }: PropsWithChildren<{}>) => {
+interface LayoutProps {
+    children: ReactNode
+}
+
+export const Layout: FC<LayoutProps> = ({ children }) => {
     return (
         <>
             <Head>

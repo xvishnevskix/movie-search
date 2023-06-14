@@ -8,12 +8,11 @@ import {useRouter} from "next/router"
 import {useGetFilmByIdQuery} from "@/services/KinopoiskService"
 import {FilmInfo} from "./components/FilmInfo/FilmInfo"
 import {FilmDetails} from "./components/FilmDetails/FilmDetails"
-import {SimilarMovies} from "@/components/SimilarMovies/SimilarMovies"
-import {Button} from "@/components/Button/Button"
-import {FiPlay} from "react-icons/fi"
-import {useFavourites} from "@/hooks/useFavourite"
+import { SimilarMovies } from "@/components/SimilarMovies/SimilarMovies"
 import styles from './Film.module.scss'
 import classNames from "classnames"
+import { Button } from "@/components/Button/Button"
+import { FiPlay } from "react-icons/fi"
 
 export const Film = () => {
     const {query: { id }} = useRouter();
@@ -27,10 +26,6 @@ export const Film = () => {
 		rating,
 		similarMovies,
     } = { ...data };
-
-	const { favourites } = useFavourites();
-
-    const isFavourite = favourites.includes(Number(id))
 
     return (
       <section className={styles.section}>
@@ -47,11 +42,13 @@ export const Film = () => {
 					</Title>
 					<span className={styles.originalTitle}>{alternativeName}</span>
 					<div className={styles.btns}>
-						<Button href={`/room/${data?.id}`} className={styles.btn} variant="regular">
+						<Button href={`/room/${id}`} className={styles.btn} variant="regular">
 							<FiPlay />
 							Смотреть
 						</Button>
-						<MovieFavorite isFavourite={isFavourite} className={styles.btn} variant="regular" id={Number(data?.id)} />
+						<MovieFavorite className={styles.btn} variant="regular" id={id}>
+							В избранное
+						</MovieFavorite>
 					</div>
 					<Title variant="h2" className={styles.subtitle}>
 						О {convertType(type)}е

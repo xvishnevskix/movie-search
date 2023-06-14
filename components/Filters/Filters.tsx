@@ -8,7 +8,6 @@ import {FormEvent, useState} from 'react';
 import {IFilter} from '@/types/IFilter';
 import {Device} from '@/components/Device';
 import {Select} from '../Select/Select';
-import {useSwipeable} from 'react-swipeable'
 import styles from './Filters.module.scss'
 import classNames from "classnames";
 
@@ -44,8 +43,6 @@ export const Filters = () => {
         handleClose()
     }
 
-    const handlers = useSwipeable({trackMouse: false, onSwipedDown: handleClose});
-
     return (
         <form
             action="#"
@@ -54,7 +51,7 @@ export const Filters = () => {
             onClick={handleClose}
             className={classNames(styles.filters, openedFilters && styles.opened)}
         >
-            <div {...handlers} onClick={e => e.stopPropagation()} className={styles.content}>
+            <div onClick={e => e.stopPropagation()} className={styles.content}>
                 <div className={styles.container}>
                     <Filter name="Рейтинг">
                         <Slider

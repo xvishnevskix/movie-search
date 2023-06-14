@@ -51,9 +51,6 @@ export const filtersSlice = createSlice({
         },
         setFilterGenre: (state, action) => {
             state.filters.genre = action.payload
-        },
-        resetFilters: state => {
-            state.filters = initialState.filters
         }
     }
 })
@@ -63,7 +60,6 @@ export const {
     setFilterRatings,
     setSortByRelease,
     setFilterGenre,
-    resetFilters,
 } = filtersSlice.actions;
 
 export const filtersReducer = filtersSlice.reducer;

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/screens/Favourites/Favourites.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/useFavourite.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/favourites.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686139375006</updated>
       <workItem from="1686139381736" duration="757000" />
-      <workItem from="1686203267520" duration="1284000" />
+      <workItem from="1686203267520" duration="2565000" />
     </task>
     <task id="LOCAL-00009" summary="chat complete">
       <created>1686139509317</created>
@@ -126,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686204305618</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="page favourites complete">
+      <created>1686204601683</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1686204601683</updated>
+    </task>
+    <task id="LOCAL-00014" summary="some refactoring">
+      <created>1686204656101</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1686204656101</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +157,7 @@
     <MESSAGE value="swiper buttons" />
     <MESSAGE value="swipeable filter" />
     <MESSAGE value="page favourites complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="page favourites complete" />
+    <MESSAGE value="some refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="some refactoring" />
   </component>
 </project>

@@ -1,34 +1,33 @@
-import {FC} from 'react'
-import {FiBookmark, FiCheck} from 'react-icons/fi'
 import classNames from 'classnames'
+import React, { FC, ReactNode } from 'react'
+import { FiBookmark } from 'react-icons/fi'
 import styles from './MovieFavorite.module.scss'
-import { useFavourites } from '@/hooks/useFavourite';
 
 interface MovieFavoriteProps {
-    id: number;
-    isFavourite: boolean;
-    variant?: 'text' | 'regular';
+    id: number | string | string[] | undefined;
+    variant?: 'circle' | 'text' | 'regular';
+    children?: ReactNode;
     className?: string;
 }
 
-export const MovieFavorite: FC<MovieFavoriteProps> = ({id, variant = 'text', className, isFavourite}) => {
+export const MovieFavorite: FC<MovieFavoriteProps> = ({id, variant = 'circle', children, className}) => {
 
-  const {toggleFavourite} = useFavourites()
+    const handleFavorites = () => {
+        console.log('id', id);
+    } 
 
-  return (
-    <button
-      onClick={() => toggleFavourite(id)}
-      className={classNames(
-        "btn-reset",
-        styles.favorite,
-        isFavourite && styles.active,
-        variant === "text" && styles.text,
-        variant === "regular" && styles.regular,
-        className
-      )}
-    >
-      {isFavourite ? <FiCheck /> : <FiBookmark />}
-      {isFavourite ? 'В избранном' : 'В избранное'}
-    </button>
-  );
+    return (
+      <button
+        onClick={handleFavorites}
+        className={classNames(
+            'btn-reset',
+            styles.favorite,
+            variant === 'text' && styles.text,
+            variant === 'regular' && styles.regular,
+            className
+        )}>
+            <FiBookmark />
+            В избранное
+      </button>
+    )
 }

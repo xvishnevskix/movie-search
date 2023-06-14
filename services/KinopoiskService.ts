@@ -2,7 +2,7 @@ import {createApi, fetchBaseQuery} from '@reduxjs/toolkit/query/react';
 import {API_KEY, API_URL} from '@/constants/api'
 import {IData} from '@/types/IData';
 import {IMovie} from '@/types/IMovie';
-import {IQuery} from '@/types/IQuery';
+import {IFilterArgs} from '@/types/IFilterArgs';
 import { getCurrentYear } from '@/helpers/getCurrentYear/getCurrentYear';
 
 export const kinopoiskAPI = createApi({
@@ -15,33 +15,30 @@ export const kinopoiskAPI = createApi({
     }),
     getNewFilms: build.query<IData, number>({
       query: limit =>
-        `/movie?field=rating.kp&search=1-10&field=year&search=${getCurrentYear()}&field=typeNumber&search=1&limit=${limit}&sortField=year&sortType=1&sortField=votes.imdb&sortType=-1&token=${API_KEY}`
+        `/movie?field=rating.kp&search=5-10&field=year&search=${getCurrentYear()}&field=typeNumber&search=1&limit=${limit}&sortField=year&sortType=1&sortField=votes.imdb&sortType=-1&token=${API_KEY}`
     }),
     getNewSeries: build.query<IData, number>({
       query: limit =>
-        `/movie?field=rating.kp&search=1-10&field=year&search=${getCurrentYear()}&field=typeNumber&search=2&limit=${limit}&sortField=year&sortType=1&sortField=votes.imdb&sortType=-1&token=${API_KEY}`,
+        `/movie?field=rating.kp&search=5-10&field=year&search=${getCurrentYear()}&field=typeNumber&search=2&limit=${limit}&sortField=year&sortType=1&sortField=votes.imdb&sortType=-1&token=${API_KEY}`,
     }),
-    getFilmByName: build.query<IData, IQuery>({
+    getFilmByName: build.query<IData, IFilterArgs>({
       query: ({filters, page, search}) =>
         `/movie?${filters.genre !== '' && `search[]=${filters.genre}&field[]=genres.name`}&search=${search}&field=name&search=${filters.rating}&field=rating.kp&search=${filters.year}&field=year&sortField=year&sortType=${filters.sortByRelease}&page=${page}&isStrict=false&token=${API_KEY}`
     }),
-    getFilms: build.query<IData, IQuery>({
+    getFilms: build.query<IData, IFilterArgs>({
       query: ({filters, page}) =>
       `/movie?${filters.genre !== '' && `search[]=${filters.genre}&field[]=genres.name`}&search[]=${filters.year}&field[]=year&search[]=${filters.rating}&field=rating.kp&search=!null&field=name&search=1&field=typeNumber&search=!null&field=votes.kp&sortField=year&sortType=${filters.sortByRelease}&limit=10&page=${page}&token=${API_KEY}`
     }),
-    getSeries: build.query<IData, IQuery>({
+    getSeries: build.query<IData, IFilterArgs>({
       query: ({filters, page}) =>
         `/movie?${filters.genre !== '' && `search[]=${filters.genre}&field[]=genres.name`}&search[]=${filters.year}&field[]=year&search[]=${filters.rating}&field=rating.kp&search=!null&field=name&search=2&field=typeNumber&search=!null&field=votes.kp&sortField=year&sortType=${filters.sortByRelease}&limit=10&page=${page}&token=${API_KEY}`
     }),
-    getCartoons: build.query<IData, IQuery>({
+    getCartoons: build.query<IData, IFilterArgs>({
       query: ({filters, page}) =>
       `/movie?${filters.genre !== '' && `search[]=${filters.genre}&field[]=genres.name`}&search[]=${filters.year}&field[]=year&search[]=${filters.rating}&field=rating.kp&search=!null&field=name&search=3&field=typeNumber&search=!null&field=votes.kp&sortField=year&sortType=${filters.sortByRelease}&limit=10&page=${page}&token=${API_KEY}`
     }),
     getPerson: build.query({
       query: () => `/person?name=&token=${API_KEY}`
-    }),
-    getFavourites: build.query<IData, IQuery>({
-      query: ({query, filters, page}) => `/movie?${filters.genre !== '' && `search[]=${filters.genre}&field[]=genres.name`}&search[]=${filters.year}&field[]=year&search[]=${filters.rating}&field=rating.kp&${query}&sortField=year&sortType=${filters.sortByRelease}&limit=10&page=${page}&token=${API_KEY}`
     })
   }),
 });
@@ -54,8 +51,7 @@ export const {
   useGetFilmsQuery,
   useGetSeriesQuery,
   useGetCartoonsQuery,
-  useGetPersonQuery,
-  useGetFavouritesQuery
+  useGetPersonQuery
 } = kinopoiskAPI;
 
 export const {
@@ -66,5 +62,5 @@ export const {
   getFilms,
   getSeries,
   getCartoons,
-  getPerson,
+  getPerson
 } = kinopoiskAPI.endpoints;

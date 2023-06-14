@@ -98,7 +98,7 @@ export const Slider: FC<SliderProps> = ({ min, max, start, step = 1, setValue}) 
               width: "17px",
               borderRadius: "100%",
               outline: 'none',
-              backgroundColor: "var(--color-white)",
+              backgroundColor: "#FFF",
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
