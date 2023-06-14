@@ -15,11 +15,11 @@ export const kinopoiskAPI = createApi({
     }),
     getNewFilms: build.query<IData, number>({
       query: limit =>
-        `/movie?field=rating.kp&search=5-10&field=year&search=${getCurrentYear()}&field=typeNumber&search=1&limit=${limit}&sortField=year&sortType=1&sortField=votes.imdb&sortType=-1&token=${API_KEY}`
+        `/movie?field=rating.kp&search=1-10&field=year&search=${getCurrentYear()}&field=typeNumber&search=1&limit=${limit}&sortField=year&sortType=1&sortField=votes.imdb&sortType=-1&token=${API_KEY}`
     }),
     getNewSeries: build.query<IData, number>({
       query: limit =>
-        `/movie?field=rating.kp&search=5-10&field=year&search=${getCurrentYear()}&field=typeNumber&search=2&limit=${limit}&sortField=year&sortType=1&sortField=votes.imdb&sortType=-1&token=${API_KEY}`,
+        `/movie?field=rating.kp&search=1-10&field=year&search=${getCurrentYear()}&field=typeNumber&search=2&limit=${limit}&sortField=year&sortType=1&sortField=votes.imdb&sortType=-1&token=${API_KEY}`,
     }),
     getFilmByName: build.query<IData, IFilterArgs>({
       query: ({filters, page, search}) =>
@@ -39,6 +39,10 @@ export const kinopoiskAPI = createApi({
     }),
     getPerson: build.query({
       query: () => `/person?name=&token=${API_KEY}`
+    }),
+    getFavourites: build.query<IData, IFilterArgs>({
+      query: ({query, filters, page}) =>
+      `/movie?${filters.genre !== '' && `search[]=${filters.genre}&field[]=genres.name`}&search[]=${filters.year}&field[]=year&search[]=${filters.rating}&field=rating.kp&${query}&sortField=year&sortType=${filters.sortByRelease}&limit=10&page=${page}&token=${API_KEY}`
     })
   }),
 });
@@ -51,7 +55,8 @@ export const {
   useGetFilmsQuery,
   useGetSeriesQuery,
   useGetCartoonsQuery,
-  useGetPersonQuery
+  useGetPersonQuery,
+  useGetFavouritesQuery
 } = kinopoiskAPI;
 
 export const {
@@ -62,5 +67,6 @@ export const {
   getFilms,
   getSeries,
   getCartoons,
-  getPerson
+  getPerson,
+  getFavourites
 } = kinopoiskAPI.endpoints;
