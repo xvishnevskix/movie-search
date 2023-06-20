@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="" />
+    <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="refactoring slider &amp; some fixes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +95,7 @@
       <updated>1686139375006</updated>
       <workItem from="1686139381736" duration="757000" />
       <workItem from="1686203267520" duration="2565000" />
-      <workItem from="1686744069997" duration="403000" />
+      <workItem from="1686744069997" duration="2988000" />
     </task>
     <task id="LOCAL-00009" summary="chat complete">
       <created>1686139509317</created>
@@ -144,7 +146,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686744455628</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="some fixes">
+      <created>1686744525577</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1686744525577</updated>
+    </task>
+    <task id="LOCAL-00017" summary="refactoring slider &amp; some fixes">
+      <created>1686744624307</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1686744624307</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,12 +174,13 @@
     <MESSAGE value="fix fonts" />
     <MESSAGE value="fix slider" />
     <MESSAGE value="update page film" />
-    <MESSAGE value="some fixes" />
     <MESSAGE value="chat complete" />
     <MESSAGE value="swiper buttons" />
     <MESSAGE value="swipeable filter" />
     <MESSAGE value="page favourites complete" />
     <MESSAGE value="some refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="some refactoring" />
+    <MESSAGE value="some fixes" />
+    <MESSAGE value="refactoring slider &amp; some fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring slider &amp; some fixes" />
   </component>
 </project>

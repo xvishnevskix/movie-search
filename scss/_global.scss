@@ -18,7 +18,6 @@ body {
     font-weight: 300;
     font-size: 16px;
     color: var(--color-light-dark);
-    background-color: #f4f4f4;
 }
 
 img {
@@ -33,13 +32,6 @@ a {
 
 .site-container {
     overflow: hidden;
-}
-
-.btn-reset {
-    border: none;
-    padding: 0;
-    background: transparent;
-    cursor: pointer;
 }
 
 .list-reset {

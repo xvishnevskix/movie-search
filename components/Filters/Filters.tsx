@@ -1,15 +1,15 @@
 import {useTypedSelector} from '@/hooks/useTypedSelector';
 import {useActions} from '@/hooks/useActions';
-import {Filter} from "@/components/Filter/Filter"
+import {Filter} from "./components/Filter/Filter"
 import {Slider} from "@/components/Slider/Slider";
 import {Radio} from "@/components/Radio/Radio";
 import {Button} from "../Button/Button";
 import {FormEvent, useState} from 'react';
-import {IFilter} from '@/types/IFilter';
 import {Device} from '@/components/Device';
 import {Select} from '../Select/Select';
-import {useSwipeable} from 'react-swipeable'
-import styles from './Filters.module.scss'
+import {useSwipeable} from 'react-swipeable';
+import {getCurrentYear} from '@/helpers/getCurrentYear/getCurrentYear';
+import styles from './Filters.module.scss';
 import classNames from "classnames";
 
 export const Filters = () => {
@@ -19,16 +19,16 @@ export const Filters = () => {
     const {openedFilters} = useTypedSelector(state => state.toggleReducer);
 
     // локальные состояние для передачи в стор
-    const [rating, setRating] = useState<IFilter>({minValue: 1, maxValue: 10});
-    const [year, setYear] = useState<IFilter>({minValue: 1990, maxValue: 2022});
+    const [rating, setRating] = useState<number[]>([1,10]);
+    const [year, setYear] = useState<number[]>([1960, getCurrentYear()]);
     const [sort, setSort] = useState<string>(filters.sortByRelease);
     const [genre, setGenre] = useState<string>(filters.genre)
 
     //условия и строки
-    const ratingString = `${rating.minValue}-${rating.maxValue}`;
-    const yearString = `${year.minValue}-${year.maxValue}`;
-    const ratings = rating.minValue !== rating.maxValue ? ratingString : rating.minValue;
-    const years = year.minValue !== year.maxValue ? yearString : year.minValue;
+    const ratingString = `${rating[0]}-${rating[1]}`;
+    const yearString = `${year[0]}-${year[1]}`;
+    const ratings = rating[0] !== rating[1] ? ratingString : rating[0];
+    const years = year[0] !== year[1] ? yearString : year[0];
 
     const handleClose = () => {
         toggleFilters(false)
@@ -60,17 +60,17 @@ export const Filters = () => {
                         <Slider
                             min={1}
                             max={10}
-                            start={rating}
-                            setValue={setRating}
+                            values={rating}
+                            onChange={setRating}
                             step={1}
                         />
                     </Filter>
                     <Filter name="Года производства">
                         <Slider
-                            min={1970}
-                            max={2022}
-                            start={year}
-                            setValue={setYear}
+                            min={1887}
+                            max={getCurrentYear()}
+                            values={year}
+                            onChange={setYear}
                         />
                     </Filter>
                     <Filter name="Жанры">

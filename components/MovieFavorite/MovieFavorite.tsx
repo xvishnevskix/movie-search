@@ -1,34 +1,37 @@
-import {FC, useEffect, useState} from 'react'
-import {FiBookmark, FiCheck} from 'react-icons/fi'
-import classNames from 'classnames'
-import styles from './MovieFavorite.module.scss'
-import { useFavourites } from '@/hooks/useFavourite';
+import {FC} from 'react';
+import {FiBookmark, FiCheck} from 'react-icons/fi';
+import {useFavourites} from '@/hooks/useFavourite';
+import classNames from 'classnames';
+import styles from './MovieFavorite.module.scss';
+import { ButtonBase } from '../ButtonBase/ButtonBase';
 
-interface MovieFavoriteProps {
-    id: any;
+export interface MovieFavoriteProps {
+    id: string | number | string[] | undefined;
     isFavourite: boolean;
     variant?: 'text' | 'regular';
     className?: string;
+    disabled?: boolean;
 }
 
-export const MovieFavorite: FC<MovieFavoriteProps> = ({id, variant = 'text', className, isFavourite}) => {
+export const MovieFavorite: FC<MovieFavoriteProps> = ({id, variant = 'text', className, isFavourite, disabled}) => {
 
   const {toggleFavourite} = useFavourites()
 
   return (
-    <button
-      onClick={() => toggleFavourite(id)}
+    <ButtonBase
+      ripple={true}
+      onClick={() => toggleFavourite(Number(id))}
       className={classNames(
-        "btn-reset",
         styles.favorite,
         isFavourite && styles.active,
         variant === "text" && styles.text,
         variant === "regular" && styles.regular,
         className
       )}
+      disabled={disabled}
     >
       {isFavourite ? <FiCheck /> : <FiBookmark />}
-      {isFavourite ? 'В избранном' : 'В избранное'}
-    </button>
+      Буду смотреть
+    </ButtonBase>
   );
 }
