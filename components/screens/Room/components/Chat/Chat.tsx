@@ -1,16 +1,15 @@
 import {ChangeEvent, FormEvent, useEffect, useRef, useState } from 'react';
-import {FiRefreshCw} from 'react-icons/fi';
 import {Button} from '@/components/Button/Button';
 import {TextField} from '@/components/TextField/TextField';
 import {IMessage} from '@/types/IMessage';
 import {Message} from '@/components/Message/Message';
-import styles from './Chat.module.scss';
 import {useCopyToClipboard} from 'usehooks-ts'
-import { useRouter } from 'next/router';
+import {useRouter} from 'next/router';
+import styles from './Chat.module.scss';
 
 export const Chat = () => {
   const {asPath} = useRouter();
-  const [value, copy] = useCopyToClipboard()
+  const [_, copy] = useCopyToClipboard()
   const [message, setMessage] = useState<string>('')
   const [messages, setMessages] = useState<IMessage[]>([])
   const ref = useRef<HTMLDivElement>(null)
@@ -20,10 +19,7 @@ export const Chat = () => {
   }
 
   const handleCopyToClipboard = () => {
-    const origin =
-        typeof window !== 'undefined' && window.location.origin
-            ? window.location.origin
-            : '';
+    const origin = typeof window !== 'undefined' && window.location.origin ? window.location.origin : '';
     const URL = `${origin}${asPath}`;
     copy(URL)
   }
@@ -50,9 +46,12 @@ export const Chat = () => {
   return (
     <div className={styles.container}>
         <div className={styles.top}>
-          <Button onClick={handleCopyToClipboard} className={styles.copyLink}>Скопировать ссылку</Button>
-          <Button className={styles.refresh}>
-            <FiRefreshCw />
+          <Button
+            variant='sm'
+            onClick={handleCopyToClipboard}
+            className={styles.copyLink}
+          >
+            Скопировать ссылку
           </Button>
         </div>
         <div ref={ref} className={styles.content}>

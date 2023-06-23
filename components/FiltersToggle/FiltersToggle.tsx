@@ -8,14 +8,17 @@ import styles from './FiltersToggle.module.scss'
 export const FiltersToggle = () => {
 
     const {openedFilters} = useTypedSelector(state => state.toggleReducer);
-    const {toggleFilters} = useActions()
+    const {toggleFilters, setSwipedValue} = useActions()
     
     useLockedBody(openedFilters)
 
-    const handleToggle = () => toggleFilters(!openedFilters)
+    const handleToggle = () => {
+        setSwipedValue(0)
+        toggleFilters(!openedFilters)
+    }
 
     return (
-        <ButtonBase className={styles.btn} onClick={handleToggle}>
+        <ButtonBase ripple className={styles.btn} onClick={handleToggle}>
             <FiFilter />
         </ButtonBase>
     )

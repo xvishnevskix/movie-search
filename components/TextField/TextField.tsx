@@ -9,7 +9,7 @@ interface TextFieldProps extends InputHTMLAttributes<HTMLInputElement> {
     onChange?: (e: ChangeEvent<HTMLInputElement>) => void;
 }
 
-export const TextField: FC<TextFieldProps> = ({className, variant, value, onChange, ...props}) => {
+export const TextField: FC<TextFieldProps> = ({className, value, variant, onChange, ...props}) => {
   return (
     <input
         className={classNames(

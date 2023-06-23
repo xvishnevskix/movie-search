@@ -1,8 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="refactoring slider &amp; some fixes">
+    <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/BackBtn/BackBtn.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/BackBtn/BackBtn.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/BackBtn/BackBtn.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/BackBtn/BackBtn.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Button/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button/Button.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ButtonBase/ButtonBase.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ButtonBase/ButtonBase.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Catalog/Catalog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Catalog/Catalog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Filters/Filters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Filters/Filters.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/FiltersToggle/FiltersToggle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/FiltersToggle/FiltersToggle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/MovieFavorite/MovieFavorite.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/MovieFavorite/MovieFavorite.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Pagination/Pagination.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Pagination/Pagination.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Search/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Search/Search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Slider/Slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Slider/Slider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SliderBtn/SliderBtn.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/SliderBtn/SliderBtn.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/TextField/TextField.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/TextField/TextField.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/Film/Film.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Film/Film.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/Home/components/Hero/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Home/components/Hero/Hero.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/Home/components/NewMovies/NewFilms.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Home/components/NewMovies/NewFilms.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/Home/components/NewMovies/NewSeries.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Home/components/NewMovies/NewSeries.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/NotFound/NotFound.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/NotFound/NotFound.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/Room/components/Chat/Chat.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Room/components/Chat/Chat.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/Room/components/Chat/Chat.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Room/components/Chat/Chat.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/Room/components/RoomHeader/RoomHeader.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Room/components/RoomHeader/RoomHeader.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/screens/Room/components/RoomHeader/RoomHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/screens/Room/components/RoomHeader/RoomHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constants/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/player.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/sw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/KinopoiskService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/services/KinopoiskService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/reducers/filters.slice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/reducers/filters.slice.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +55,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -95,7 +127,7 @@
       <updated>1686139375006</updated>
       <workItem from="1686139381736" duration="757000" />
       <workItem from="1686203267520" duration="2565000" />
-      <workItem from="1686744069997" duration="2988000" />
+      <workItem from="1686744069997" duration="3159000" />
     </task>
     <task id="LOCAL-00009" summary="chat complete">
       <created>1686139509317</created>
@@ -160,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686744624307</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="some fixes: some refactoring &amp; ripple effect for buttons">
+      <created>1687254506973</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1687254506973</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +220,7 @@
     <MESSAGE value="some refactoring" />
     <MESSAGE value="some fixes" />
     <MESSAGE value="refactoring slider &amp; some fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring slider &amp; some fixes" />
+    <MESSAGE value="some fixes: some refactoring &amp; ripple effect for buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="some fixes: some refactoring &amp; ripple effect for buttons" />
   </component>
 </project>
