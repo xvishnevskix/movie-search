@@ -2,15 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/codeql-analysis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__mocks__/fileMock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__mocks__/styleMock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Button/Button.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Button/__snapshots__/Button.test.tsx.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Chip/Chip.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Chip/Chip.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Chip/Chip.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Filters/components/FiltersChoices/FiltersChoices.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Filters/components/FiltersChoices/FiltersChoices.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Pagination/Pagination.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Pagination/__snapshots__/Pagination.test.tsx.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Search/components/SearchItem/SearchItem.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Search/components/SearchItem/SearchItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Search/components/SearchList/SearchList.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Search/components/SearchList/SearchList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Slider/Slider.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Slider/__snapshots__/Slider.test.tsx.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/TextField/TextField.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/TextField/__snapshots__/TextField.test.tsx.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/screens/Room/components/Chat/components/CopyToClipboard/CopyToClipboard.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/screens/Room/components/Chat/components/CopyToClipboard/CopyToClipboard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jest.setup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/KinomoreService.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Catalog/Catalog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Catalog/Catalog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Pagination/Pagination.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Pagination/Pagination.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Pagination/Pagination.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Pagination/Pagination.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Radio/Radio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Radio/Radio.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Slider/Slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Slider/Slider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/sw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Search/Search.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Search/Search.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Search/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Search/Search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/reducers/search.slice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/reducers/search.slice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/IQuery.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/IQuery.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +42,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -107,7 +133,7 @@
       <workItem from="1686203267520" duration="2565000" />
       <workItem from="1686744069997" duration="3159000" />
       <workItem from="1687517111339" duration="986000" />
-      <workItem from="1688449986909" duration="784000" />
+      <workItem from="1688449986909" duration="1813000" />
     </task>
     <task id="LOCAL-00009" summary="chat complete">
       <created>1686139509317</created>
@@ -193,7 +219,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688450323432</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="refactoring pagination">
+      <created>1688450898291</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1688450898291</updated>
+    </task>
+    <task id="LOCAL-00022" summary="search list">
+      <created>1688451161200</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1688451161200</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +257,8 @@
     <MESSAGE value="some fixes: some refactoring &amp; ripple effect for buttons" />
     <MESSAGE value="swiped events" />
     <MESSAGE value="storybook" />
-    <option name="LAST_COMMIT_MESSAGE" value="storybook" />
+    <MESSAGE value="refactoring pagination" />
+    <MESSAGE value="search list" />
+    <option name="LAST_COMMIT_MESSAGE" value="search list" />
   </component>
 </project>
