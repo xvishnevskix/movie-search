@@ -2,8 +2,8 @@ import {ChangeEvent, FormEvent, useEffect, useRef, useState } from 'react';
 import {TextField} from '@/components/TextField/TextField';
 import {IMessage} from '@/types/IMessage';
 import {Message} from '@/components/Message/Message';
+import {CopyToClipboard} from './components/CopyToClipboard/CopyToClipboard';
 import styles from './Chat.module.scss';
-import { CopyToClipboard } from '@/components/CopyToClipboard/CopyToClipboard';
 
 export const Chat = () => {
   const [message, setMessage] = useState<string>('')
@@ -50,7 +50,7 @@ export const Chat = () => {
         <form onSubmit={sendMessage} className={styles.form} action="#">
           <TextField
             type='text'
-            variant='dark'
+            variant='small'
             className={styles.input}
             placeholder='Введите сообщение'
             value={message}
