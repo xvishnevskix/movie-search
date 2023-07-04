@@ -1,40 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/codeql-analysis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SECURITY.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__mocks__/fileMock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__mocks__/styleMock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Button/Button.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Button/__snapshots__/Button.test.tsx.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Chip/Chip.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Chip/Chip.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Chip/Chip.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Filters/components/FiltersChoices/FiltersChoices.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Filters/components/FiltersChoices/FiltersChoices.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Pagination/Pagination.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Pagination/__snapshots__/Pagination.test.tsx.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Search/components/SearchItem/SearchItem.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Search/components/SearchItem/SearchItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Search/components/SearchList/SearchList.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Search/components/SearchList/SearchList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Slider/Slider.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Slider/__snapshots__/Slider.test.tsx.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/TextField/TextField.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/TextField/__snapshots__/TextField.test.tsx.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/screens/Room/components/Chat/components/CopyToClipboard/CopyToClipboard.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/screens/Room/components/Chat/components/CopyToClipboard/CopyToClipboard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jest.setup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/KinomoreService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Search/Search.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Search/Search.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Search/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Search/Search.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/actions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/reducers/search.slice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/reducers/search.slice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/IQuery.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/IQuery.ts" afterDir="false" />
-    </list>
+    <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,7 +100,7 @@
       <workItem from="1686203267520" duration="2565000" />
       <workItem from="1686744069997" duration="3159000" />
       <workItem from="1687517111339" duration="986000" />
-      <workItem from="1688449986909" duration="1813000" />
+      <workItem from="1688449986909" duration="2441000" />
     </task>
     <task id="LOCAL-00009" summary="chat complete">
       <created>1686139509317</created>
@@ -233,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688451161200</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="hook useDebounce">
+      <created>1688452709243</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1688452709243</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +233,7 @@
     <MESSAGE value="storybook" />
     <MESSAGE value="refactoring pagination" />
     <MESSAGE value="search list" />
-    <option name="LAST_COMMIT_MESSAGE" value="search list" />
+    <MESSAGE value="hook useDebounce" />
+    <option name="LAST_COMMIT_MESSAGE" value="hook useDebounce" />
   </component>
 </project>
