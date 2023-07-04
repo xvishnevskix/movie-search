@@ -5,42 +5,31 @@
     line-height: 16px;
     font-weight: 400;
     color: var(--color-light-dark);
-    margin-bottom: 30px;
 
     &:hover {
         svg {
             transform: translateX(-1px);
         }
     }
-
-    @media (max-width: 576px) {
-        margin-bottom: 25px;
-    }
     
     svg {
         display: block;
-        margin-right: 5px;
         width: 20px;
         height: 20px;
         stroke: currentColor;
         transition: transform 0.3s;
     }
+
+    span {
+        margin-right: 5px;
+    }
 }
 
 .icon {
-    margin-bottom: 0;
     margin-right: 15px;
-    font-size: 0;
-    line-height: 0;
     width: 25px;
     flex-shrink: 0;
     height: 25px;
-
-    &:hover {
-        svg {
-            transform: none;
-        }
-    }
 
     svg {
         width: 100%;

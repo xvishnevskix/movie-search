@@ -1,4 +1,5 @@
 import {FC} from 'react'
+import { isMobile } from 'react-device-detect';
 import {FiChevronDown} from 'react-icons/fi';
 import ReactSelect, { components, StylesConfig, DropdownIndicatorProps  } from 'react-select'
 
@@ -9,14 +10,14 @@ type SelectValue = {
 
 interface SelectProps {
   options: SelectValue[];
-  handleSelect: (value: string) => void;
+  onChange: (e: unknown) => void;
+  value: SelectValue | unknown;
+  name: string;
 }
 
-export const Select: FC<SelectProps> = ({options, handleSelect}) => {
+export const Select: FC<SelectProps> = ({name, options, value, onChange}) => {
 
-  const DropdownIndicator = (
-    props: DropdownIndicatorProps
-  ) => {
+  const DropdownIndicator = (props: DropdownIndicatorProps) => {
     return (
       <components.DropdownIndicator {...props}>
         <FiChevronDown />
@@ -50,15 +51,15 @@ export const Select: FC<SelectProps> = ({options, handleSelect}) => {
     })
   };
 
-  const handleChange = ({value}: SelectValue | any) => handleSelect(value)
-
   return (
     <ReactSelect
+      name={name}
+      menuPlacement={isMobile ? 'top' : 'auto'}
       instanceId="select"
       options={options}
       styles={selectStyle}
-      onChange={handleChange}
-      defaultValue={options[0]}
+      value={value}
+      onChange={e => onChange(e)}
       components={{
         IndicatorSeparator: () => null,
         DropdownIndicator: DropdownIndicator
