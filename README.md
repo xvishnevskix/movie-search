@@ -1,6 +1,6 @@
 # MovieSearch
 
-Front-end приложение для поиска и просмотра фильмов. Демо: https://movie-search-ms.vercel.app/
+🎞 Front-end приложение для поиска и просмотра фильмов. Демо: https://movie-search-ms.vercel.app/ 
 
 # Стек технологий:
 
@@ -14,6 +14,6 @@ Front-end приложение для поиска и просмотра фил�
 -   React-hook-form
 -   Storybook
 
-# API
+📽 # API
 
 Подробная документация [https://kinopoisk.dev/documentation.html](https://kinopoisk.dev/documentation.html)
