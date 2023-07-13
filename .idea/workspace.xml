@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/screens/Favourites/Favourites.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/Favourites/Favourites.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/9112667.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +148,7 @@
       <workItem from="1688710733409" duration="19009000" />
       <workItem from="1689050915779" duration="15198000" />
       <workItem from="1689230768714" duration="131000" />
-      <workItem from="1689230964655" duration="9431000" />
+      <workItem from="1689230964655" duration="9855000" />
     </task>
     <task id="LOCAL-00009" summary="chat complete">
       <created>1686139509317</created>
@@ -270,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689243592437</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="some fixes">
+      <created>1689244431280</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1689244431280</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +295,6 @@
     <MESSAGE value="swipeable filter" />
     <MESSAGE value="page favourites complete" />
     <MESSAGE value="some refactoring" />
-    <MESSAGE value="some fixes" />
     <MESSAGE value="refactoring slider &amp; some fixes" />
     <MESSAGE value="some fixes: some refactoring &amp; ripple effect for buttons" />
     <MESSAGE value="swiped events" />
@@ -299,6 +304,7 @@
     <MESSAGE value="hook useDebounce" />
     <MESSAGE value="some fixes and refactoring" />
     <MESSAGE value="refactoring and fix MovieSearchService.ts" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring and fix MovieSearchService.ts" />
+    <MESSAGE value="some fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some fixes" />
   </component>
 </project>
