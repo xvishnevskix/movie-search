@@ -19,7 +19,7 @@ import classNames from 'classnames';
 export const Filters = () => {
 	const {
 		setFilterRatings,
-		setFiterYears,
+		setFilterYears,
 		setSortByRelease,
 		setFilterGenre,
 		setPage,
@@ -62,7 +62,7 @@ export const Filters = () => {
 
 	const { handleSubmit, control, getValues, reset } = useForm({
 		defaultValues: {
-			sort: '-1',
+			sort: '',
 			genres: genres[0],
 			rating: [1, 10],
 			year: [1960, getCurrentYear()],
@@ -76,11 +76,11 @@ export const Filters = () => {
 		const yearString = `${year[0]}-${year[1]}`;
 		const ratings = rating[0] !== rating[1] ? ratingString : rating[0];
 		const years = year[0] !== year[1] ? yearString : year[0];
-		const genre = genres.value !== '' ? `search[]=${genres.value}&field[]=genres.name` : '';
-
+		const genre = genres.value !== '' ? `genres.name=${genres.value}&genres.name=string` : '';
+		console.log(years)
 		setPage(1);
 		setFilterRatings(ratings);
-		setFiterYears(years);
+		setFilterYears(years);
 		setSortByRelease(sort);
 		setFilterGenre(genre);
 		handleClose();
@@ -165,35 +165,6 @@ export const Filters = () => {
 								);
 							}}
 						/>
-					</Filter>
-					<Filter name="Год выхода">
-						<div className={styles.radios}>
-							<Controller
-								name="sort"
-								control={control}
-								render={({ field: { onChange } }) => {
-									return (
-										<>
-											<Radio
-												className={styles.radio}
-												label="Сначала новые"
-												value="-1"
-												defaultChecked
-												name="sort"
-												onChange={onChange}
-											/>
-											<Radio
-												className={styles.radio}
-												label="Сначала старые"
-												value="1"
-												name="sort"
-												onChange={onChange}
-											/>
-										</>
-									);
-								}}
-							/>
-						</div>
 					</Filter>
 				</div>
 			</div>

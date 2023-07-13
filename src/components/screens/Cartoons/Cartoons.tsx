@@ -1,4 +1,4 @@
-import { useGetCartoonsQuery } from '@/services/KinomoreService';
+import { useGetCartoonsQuery } from '@/services/MovieSearchService';
 import { useTypedSelector } from '@/hooks/useTypedSelector';
 import { Catalog } from '@/components/Catalog/Catalog';
 import { Filters } from '@/components/Filters/Filters';

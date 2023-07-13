@@ -46,11 +46,11 @@
 		display: none;
 		bottom: -8px;
 		left: 0;
-		width: 16px;
-		height: 2.5px;
+		width: 170px;
+		height: 2px;
 		border-radius: 5px;
 		outline: none;
-		background-color: var(--color-primary);
+		background: linear-gradient(270deg,transparent .17%,#2253b2 15%,#fff 50%,#2253b2 85%,transparent);
 	}
 
 	&Active {

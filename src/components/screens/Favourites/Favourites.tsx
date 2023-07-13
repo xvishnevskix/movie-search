@@ -1,4 +1,4 @@
-import { useGetFavouritesQuery } from '@/services/KinomoreService';
+import { useGetFavouritesQuery } from '@/services/MovieSearchService';
 import { useTypedSelector } from '@/hooks/useTypedSelector';
 import { Catalog } from '@/components/Catalog/Catalog';
 import { Filters } from '@/components/Filters/Filters';
@@ -6,7 +6,7 @@ import { useFavourites } from '@/hooks/useFavourite';
 
 export const Favourites = () => {
 	const { favourites } = useFavourites();
-	const query = favourites.map((el) => `search=${el}&field=id`).join('&');
+	const query = favourites.map((el) => `&id=${el}&`);
 	const { filters } = useTypedSelector((state) => state.filtersReducer);
 	const { page } = useTypedSelector((state) => state.paginationReducer);
 	const { data, isLoading, isFetching } = useGetFavouritesQuery({ page, filters, query });

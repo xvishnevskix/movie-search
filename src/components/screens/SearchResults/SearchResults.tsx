@@ -1,4 +1,4 @@
-import { useGetFilmByNameQuery } from '@/services/KinomoreService';
+import { useGetFilmByNameQuery } from '@/services/MovieSearchService';
 import { useTypedSelector } from '@/hooks/useTypedSelector';
 import { useRouter } from 'next/router';
 import { Catalog } from '@/components/Catalog/Catalog';

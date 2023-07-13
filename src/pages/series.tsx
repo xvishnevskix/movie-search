@@ -1,5 +1,5 @@
 import { GetStaticProps, NextPage } from 'next';
-import { getSeries } from '@/services/KinomoreService';
+import { getSeries } from '@/services/MovieSearchService';
 import { initStore } from '@/store/store';
 import { Series } from '@/components/screens/Series/Series';
 import { Layout } from '@/components/Layout/Layout';

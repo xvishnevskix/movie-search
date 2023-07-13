@@ -1,7 +1,7 @@
 import { loadMoreFilms, loadMoreSeries, loadMoreImages } from '@/store/reducers/loadMoreSlice';
 import {
 	setFilterRatings,
-	setFiterYears,
+	setFilterYears,
 	setSortByRelease,
 	setFilterGenre,
 	resetFilters,
@@ -16,7 +16,7 @@ export {
 	loadMoreFilms,
 	loadMoreSeries,
 	setFilterRatings,
-	setFiterYears,
+	setFilterYears,
 	setSortByRelease,
 	setFilterGenre,
 	setPage,

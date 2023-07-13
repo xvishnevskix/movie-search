@@ -1,5 +1,5 @@
 import { GetServerSideProps, NextPage } from 'next';
-import { getPersonById } from '@/services/KinomoreService';
+import { getPersonById } from '@/services/MovieSearchService';
 import { initStore } from '@/store/store';
 import { Person } from '@/components/screens/Person/Person';
 import { Layout } from '@/components/Layout/Layout';

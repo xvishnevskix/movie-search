@@ -4,7 +4,7 @@ import { BackButton } from '@/UI/BackButton/BackButton';
 import { convertMovieType } from '@/helpers/convertMovieType/convertMovieType';
 import { MovieRating } from '@/UI/MovieRating/MovieRating';
 import { useRouter } from 'next/router';
-import { useGetFilmByIdQuery } from '@/services/KinomoreService';
+import { useGetFilmByIdQuery } from '@/services/MovieSearchService';
 import { Button } from '@/UI/Button/Button';
 import { FiPlay } from 'react-icons/fi';
 import { Reviews, MovieFavorite, SimilarMovies, FilmTabs, FilmInfo } from './components';
@@ -17,6 +17,7 @@ export const Film = () => {
 		query: { id },
 	} = useRouter();
 	const { data, isLoading, isError } = useGetFilmByIdQuery(id);
+	console.log(data)
 	const { alternativeName, name, type, shortDescription, year, rating, similarMovies } = { ...data };
 	const movieTitle = name ? name : isLoading ? 'Загрузка' : 'Без названия';
 	const movieYear = year && `(${year})`;

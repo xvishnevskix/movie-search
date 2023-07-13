@@ -1,4 +1,4 @@
-# Kinomore
+# MovieSearch
 
 Front-end приложение для поиска и просмотра фильмов. Демо: [https://kinomore.vercel.app/](https://kinomore.vercel.app/)
 

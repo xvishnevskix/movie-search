@@ -29,9 +29,7 @@ export const FiltersChoices: FC<FiltersChoicesProps> = ({ choices }) => {
 				Года производства: {year[0]} - {year[1]}
 			</Chip>
 			<Chip className={styles.choice}>Жанр: {genres.label}</Chip>
-			<Chip className={styles.choice}>
-				Год выхода: {sort === '-1' ? 'Сначала новые' : 'Сначала старые'}
-			</Chip>
+
 		</div>
 	);
 };

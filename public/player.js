@@ -1,4 +1,4 @@
-/* Kinomore player */
+/* player */
 
 // Функция для управления плеером с пульта управления на устройствах Android / etc.
 function kinobd_key(event) {

@@ -37,7 +37,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 	return (
 		<Provider store={store}>
 			<Head>
-				<title>Kinomore</title>
+				<title>Movie Search</title>
 				<link rel="icon" href="/favicon.ico" />
 				<meta
 					name="viewport"

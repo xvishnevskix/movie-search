@@ -4,6 +4,7 @@ import { RoutesEnum } from '@/constants/routes';
 import styles from './Footer.module.scss';
 import classNames from 'classnames';
 import Link from 'next/link';
+import {movieSearchAPI} from "@/services/MovieSearchService";
 
 export const Footer = () => {
 	const items = [
@@ -25,7 +26,7 @@ export const Footer = () => {
 						</li>
 					))}
 				</ul>
-				<span className={styles.copy}>© {getCurrentYear()} Kinomore</span>
+				<span className={styles.copy}>© {getCurrentYear()} MovieSearch</span>
 			</div>
 		</footer>
 	);

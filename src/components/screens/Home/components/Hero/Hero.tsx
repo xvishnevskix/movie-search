@@ -9,27 +9,32 @@ import classNames from 'classnames';
 import styles from './Hero.module.scss';
 import 'swiper/css';
 import 'swiper/css/effect-fade';
+import bg1 from "/bg1.jpg"
 
 export const Hero = () => {
 	const { push } = useRouter();
 
 	return (
-		<section className={styles.section} style={{ backgroundImage: 'url(/bg1.jpg)' }}>
-			<h1 className="visually-hidden">Kinomore — бесплатные фильмы и сериалы</h1>
+		<section className={styles.section} style={{ backgroundImage: 'url(/9112667.jpg)' }}>
+			<h1 className="visually-hidden">CinemaSearch — бесплатные фильмы и сериалы</h1>
 			<div className={classNames('container', styles.container)}>
 				<div className={styles.content}>
 					<Title variant="h2" className={styles.title}>
-						Тор: Любовь и гром
+						Стражи Галактики. Часть 3
 					</Title>
 					<p className={styles.desc}>
-						Джейн Фостер берет на себя обязанности Бога-громовержца и становится
-						обладательницей молота Мьёльнира.
+						Питер Квилл никак не может смириться с потерей Гаморы и теперь вместе со Стражами Галактики
+						вынужден отправиться на очередную миссию по защите Вселенной.
 					</p>
 					<Button onClick={() => push(`/film/1282688`)} endIcon={<FiArrowRight />}>
 						Подробнее
 					</Button>
+
 				</div>
+
+
 			</div>
+			<div className={styles.overlay}></div>
 		</section>
 	);
 };

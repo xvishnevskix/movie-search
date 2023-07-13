@@ -1,6 +1,6 @@
 import { GetServerSideProps, NextPage } from 'next';
 import { SearchResults } from '@/components/screens/SearchResults/SearchResults';
-import { getFilmByName } from '@/services/KinomoreService';
+import { getFilmByName } from '@/services/MovieSearchService';
 import { initStore } from '@/store/store';
 import { Layout } from '@/components/Layout/Layout';
 

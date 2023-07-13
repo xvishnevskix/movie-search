@@ -1,7 +1,7 @@
 import { FC, useEffect, useState } from 'react';
 import { ButtonBase } from '@/UI/ButtonBase/ButtonBase';
 import { SearchItem } from '../SearchItem/SearchItem';
-import { useGetFilmsBySearchQuery } from '@/services/KinomoreService';
+import { useGetFilmsBySearchQuery } from '@/services/MovieSearchService';
 import { Spinner, SpinnerSizes } from '@/UI/Spinner/Spinner';
 import { Button } from '@/UI/Button/Button';
 import classNames from 'classnames';

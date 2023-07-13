@@ -1,6 +1,6 @@
 import { GetStaticProps, NextPage } from 'next';
 import { Cartoons } from '@/components/screens/Cartoons/Cartoons';
-import { getCartoons } from '@/services/KinomoreService';
+import { getCartoons } from '@/services/MovieSearchService';
 import { initStore } from '@/store/store';
 import { Layout } from '@/components/Layout/Layout';
 

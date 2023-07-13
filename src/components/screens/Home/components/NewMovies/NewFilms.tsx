@@ -1,5 +1,5 @@
 import { FilmItem } from '@/components/FilmItem/FilmItem';
-import { useGetNewFilmsQuery } from '@/services/KinomoreService';
+import { useGetNewFilmsQuery } from '@/services/MovieSearchService';
 import { useTypedSelector } from '@/hooks/useTypedSelector';
 import { RoutesEnum } from '@/constants/routes';
 import { Button } from '@/UI/Button/Button';

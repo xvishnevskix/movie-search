@@ -1,5 +1,5 @@
 import { calcPercent } from '@/helpers/calcPercent/calcPercent';
-import { useGetReviewsByIdQuery } from '@/services/KinomoreService';
+import { useGetReviewsByIdQuery } from '@/services/MovieSearchService';
 import { useRouter } from 'next/router';
 import classNames from 'classnames';
 import styles from './ReviewsInfo.module.scss';

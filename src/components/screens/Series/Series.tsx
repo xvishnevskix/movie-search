@@ -1,4 +1,4 @@
-import { useGetSeriesQuery } from '@/services/KinomoreService';
+import { useGetSeriesQuery } from '@/services/MovieSearchService';
 import { useTypedSelector } from '@/hooks/useTypedSelector';
 import { Catalog } from '@/components/Catalog/Catalog';
 import { Filters } from '@/components/Filters/Filters';

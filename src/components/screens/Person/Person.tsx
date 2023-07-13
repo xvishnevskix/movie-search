@@ -2,7 +2,7 @@
 import { Title } from '@/UI/Title/Title';
 import { BackButton } from '@/UI/BackButton/BackButton';
 import { useRouter } from 'next/router';
-import { useGetPersonByIdQuery } from '@/services/KinomoreService';
+import { useGetPersonByIdQuery } from '@/services/MovieSearchService';
 import { PersonInfo, PersonTabs } from './components';
 import styles from './Person.module.scss';
 import classNames from 'classnames';

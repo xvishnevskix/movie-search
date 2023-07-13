@@ -1,5 +1,5 @@
 import { useTypedSelector } from '@/hooks/useTypedSelector';
-import { useGetMovieImagesQuery } from '@/services/KinomoreService';
+import { useGetMovieImagesQuery } from '@/services/MovieSearchService';
 import { IMovie } from '@/types/IMovie';
 import { Tabs } from '@/UI/Tabs/Tabs';
 import { useRouter } from 'next/router';

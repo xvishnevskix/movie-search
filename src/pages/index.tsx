@@ -2,7 +2,7 @@ import { GetStaticProps, NextPage } from 'next';
 import { Home } from '@/components/screens/Home/Home';
 import { Layout } from '@/components/Layout/Layout';
 import { initStore } from '@/store/store';
-import { getNewFilms, getNewSeries } from '@/services/KinomoreService';
+import { getNewFilms, getNewSeries } from '@/services/MovieSearchService';
 
 const Index: NextPage = () => {
 	return (
