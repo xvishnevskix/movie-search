@@ -9,6 +9,7 @@ export const Favourites = () => {
 	const query = favourites.map((el) => `&id=${el}&`);
 	const { filters } = useTypedSelector((state) => state.filtersReducer);
 	const { page } = useTypedSelector((state) => state.paginationReducer);
+	// @ts-ignore
 	const { data, isLoading, isFetching } = useGetFavouritesQuery({ page, filters, query });
 
 	const { Container, Heading, Description, Body, Content, Subtitle } = Catalog;

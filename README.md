@@ -1,6 +1,6 @@
 # MovieSearch
 
-Front-end приложение для поиска и просмотра фильмов. Демо: [https://kinomore.vercel.app/](https://kinomore.vercel.app/)
+Front-end приложение для поиска и просмотра фильмов. Демо: 
 
 # Стек технологий:
 
@@ -11,8 +11,7 @@ Front-end приложение для поиска и просмотра фил�
 -   Jest
 -   NextJS
 -   PWA
--   React-hook-form, Yup
--   Testing Library
+-   React-hook-form
 -   Storybook
 
 # API
