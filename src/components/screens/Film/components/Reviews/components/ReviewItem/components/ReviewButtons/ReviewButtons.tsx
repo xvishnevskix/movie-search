@@ -14,7 +14,7 @@ interface ReviewButtonsProps {
 export const ReviewButtons: FC<ReviewButtonsProps> = ({ likes, dislikes }) => {
 	const { push } = useRouter();
 
-	/* ToDo: написать бекенд, и реализовать функционал */
+
 	const liked = null;
 
 	const handleClick = () => {

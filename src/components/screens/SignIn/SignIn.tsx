@@ -5,6 +5,10 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import { useRouter } from 'next/router';
 import NextLink from 'next/link';
 import * as Yup from 'yup';
+import styles from './SignIn.module.scss'
+import Image from "next/image";
+import SocialAuth from "@/UI/SocialAuth/SocialAuth";
+
 
 export const SignIn = () => {
 	const { push } = useRouter();
@@ -79,6 +83,7 @@ export const SignIn = () => {
 					<a>Зарегистрироваться</a>
 				</NextLink>
 			</Link>
+			<SocialAuth/>
 		</Auth>
 	);
 };

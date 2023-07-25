@@ -26,7 +26,7 @@ export const Hero = () => {
 						Питер Квилл никак не может смириться с потерей Гаморы и теперь вместе со Стражами Галактики
 						вынужден отправиться на очередную миссию по защите Вселенной.
 					</p>
-					<Button onClick={() => push(`/film/1282688`)} endIcon={<FiArrowRight />}>
+					<Button onClick={() => push(`/film/1044280`)} endIcon={<FiArrowRight />}>
 						Подробнее
 					</Button>
 
