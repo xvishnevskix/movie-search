@@ -17,7 +17,7 @@ export const Film = () => {
 		query: { id },
 	} = useRouter();
 	const { data, isLoading, isError } = useGetFilmByIdQuery(id);
-	console.log(data)
+
 	const { alternativeName, name, type, shortDescription, year, rating, similarMovies } = { ...data };
 	const movieTitle = name ? name : isLoading ? 'Загрузка' : 'Без названия';
 	const movieYear = year && `(${year})`;

@@ -3,11 +3,32 @@ import '@/scss/main.scss';
 import type { AppProps } from 'next/app';
 import { useStore } from '@/store/store';
 import { Provider } from 'react-redux';
-import { useEffect } from 'react';
+import {createContext, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import NProgress from 'nprogress';
 import 'nprogress/nprogress.css';
 import Head from 'next/head';
+import firebase from "firebase";
+import 'firebase/firestore'
+import 'firebase/auth'
+
+if (firebase.apps.length === 0) {
+	firebase.initializeApp({
+		apiKey: "AIzaSyCqHJpYWaTqkZiDor4Y5pXCU6MKaWdXrWM",
+		authDomain: "movie-search-chat.firebaseapp.com",
+		projectId: "movie-search-chat",
+		storageBucket: "movie-search-chat.appspot.com",
+		messagingSenderId: "301171031321",
+		appId: "1:301171031321:web:ce0a92c527627335ac1988",
+		measurementId: "G-FFXBQFSBS1"
+	});
+}
+
+
+export const Context = createContext<any|null>(null)
+
+const auth = firebase.auth()
+const firestore = firebase.firestore()
 
 export default function MyApp({ Component, pageProps }: AppProps) {
 	const store = useStore(pageProps.initialReduxState);
@@ -35,17 +56,23 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 	}, []);
 
 	return (
-		<Provider store={store}>
-			<Head>
-				<title>Movie Search</title>
-				<link rel="icon" href="/favicon.ico" />
-				<meta
-					name="viewport"
-					content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
-				/>
-				<meta name="apple-mobile-web-app-capable" content="yes" />
-			</Head>
-			<Component {...pageProps} />
-		</Provider>
+		<Context.Provider value={{
+			firebase,
+			auth,
+			firestore
+		}}>
+			<Provider store={store}>
+				<Head>
+					<title>Movie Search</title>
+					<link rel="icon" href="/favicon.ico" />
+					<meta
+						name="viewport"
+						content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+					/>
+					<meta name="apple-mobile-web-app-capable" content="yes" />
+				</Head>
+				<Component {...pageProps} />
+			</Provider>
+		</Context.Provider>
 	);
 }

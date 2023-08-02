@@ -10,8 +10,10 @@ interface BackButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 export const BackButton = memo<BackButtonProps>(({ className, variant, ...props }) => {
-	const router = useRouter();
-	const handleBack = () => router.back();
+	const {query: {id},
+		   push,
+	} = useRouter();
+	const handleBack = () => push(`/film/${id}`);
 
 	return (
 		<ButtonBase

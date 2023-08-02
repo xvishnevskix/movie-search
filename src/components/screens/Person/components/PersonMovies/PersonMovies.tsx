@@ -10,7 +10,7 @@ interface PersonMoviesProps {
 }
 
 export const PersonMovies: FC<PersonMoviesProps> = ({ movies }) => {
-	console.log(movies);
+
 
 	return (
 		<div className={styles.container}>

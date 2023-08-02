@@ -1,10 +1,29 @@
-import React from 'react';
+import React, {useContext, useState} from 'react';
 import styles from "@/components/screens/SignIn/SignIn.module.scss";
+import firebase from "firebase";
+import {Context} from "../../../pages/_app";
+import {useAuthState} from "react-firebase-hooks/auth";
+import {useRouter} from "next/router";
 
-const SocialAuth = () => {
+
+
+
+export const SocialAuth = () => {
+    const {auth} = useContext(Context)
+    const [user] = useAuthState(auth)
+    const [checkUser] = useState(user)
+
+    const login = async () => {
+        const provider = new firebase.auth.GoogleAuthProvider()
+        const {user} = await auth.signInWithPopup(provider)
+    }
+    const router = useRouter()
+    if (user !== checkUser) {
+        router.back()
+    }
     return (
         <div  className={styles.auth_buttons}>
-            <button  className={styles.google}>
+            <button onClick={login}  className={styles.google}>
             </button>
         </div>
     );

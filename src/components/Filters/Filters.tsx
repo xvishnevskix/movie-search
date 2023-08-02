@@ -77,7 +77,7 @@ export const Filters = () => {
 		const ratings = rating[0] !== rating[1] ? ratingString : rating[0];
 		const years = year[0] !== year[1] ? yearString : year[0];
 		const genre = genres.value !== '' ? `genres.name=${genres.value}&genres.name=string` : '';
-		console.log(years)
+
 		setPage(1);
 		setFilterRatings(ratings);
 		setFilterYears(years);

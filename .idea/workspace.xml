@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="some fixes">
-      <change afterPath="$PROJECT_DIR$/public/icons/auth/icons-google-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/auth/icons8-google.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/SocialAuth/SocialAuth.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/screens/SignIn/SignIn.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kinomore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movie-search.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="firebase, material-ui-core and fixes of links">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SECURITY.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/screens/Film/components/Reviews/components/ReviewItem/components/ReviewButtons/ReviewButtons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/Film/components/Reviews/components/ReviewItem/components/ReviewButtons/ReviewButtons.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/screens/SignIn/SignIn.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/SignIn/SignIn.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/screens/SignUp/SignUp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/SignUp/SignUp.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/9112667.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Filters/Filters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filters/Filters.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/BackButton/BackButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/BackButton/BackButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/SocialAuth/SocialAuth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/SocialAuth/SocialAuth.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/screens/Film/Film.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/Film/Film.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/screens/Home/components/Hero/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/Home/components/Hero/Hero.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/screens/Person/components/PersonMovies/PersonMovies.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/Person/components/PersonMovies/PersonMovies.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/screens/Room/Room.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/Room/Room.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/screens/Room/components/Chat/Chat.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/Room/components/Chat/Chat.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/screens/Room/components/Chat/Chat.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/Room/components/Chat/Chat.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/screens/Room/components/Chat/components/Message/Message.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/Room/components/Chat/components/Message/Message.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/screens/Room/components/Chat/components/Message/Message.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/Room/components/Chat/components/Message/Message.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/IMessage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/IMessage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,23 +43,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Downloads/Проектики/MovieSearch/public/icons/auth",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "E:\\Downloads\\Проектики\\MovieSearch\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="ts.external.directory.path" value="C:\Users\V\Downloads\MovieSearch\node_modules\typescript\lib" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\V\Downloads\MovieSearch\public" />
       <recent name="E:\Downloads\Проектики\MovieSearch\public\icons\auth" />
       <recent name="C:\Users\V\Downloads\kinomore\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\V\Downloads\MovieSearch\public\icons\auth" />
       <recent name="C:\Users\V\Downloads\MovieSearch\public" />
       <recent name="C:\Users\V\Downloads\kinomore\public" />
     </key>
@@ -331,6 +333,7 @@
     <MESSAGE value="some fixes and refactoring" />
     <MESSAGE value="refactoring and fix MovieSearchService.ts" />
     <MESSAGE value="some fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="some fixes" />
+    <MESSAGE value="firebase, material-ui-core and fixes of links" />
+    <option name="LAST_COMMIT_MESSAGE" value="firebase, material-ui-core and fixes of links" />
   </component>
 </project>

@@ -32,10 +32,10 @@ export const Room = () => {
 						data-resize="1"
 						data-bg="#000"
 						data-kinopoisk={id}
-					></div>
+					>{}</div>
 				</div>
 			</div>
-			<Chat />
+			<Chat data={data?.id}/>
 		</section>
 	);
 };
