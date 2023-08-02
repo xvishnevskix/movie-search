@@ -27,7 +27,7 @@ export const Chat:FC<ChatProps> = ({data}) => {
 
 	const login = async () => {
 		const provider = new firebase.auth.GoogleAuthProvider()
-		const {user} = await auth.signInWithPopup(provider)
+		const {user} = await auth.signInWithRedirect(provider)
 	}
 
 	const handleChange = (e: ChangeEvent<HTMLInputElement>) => {

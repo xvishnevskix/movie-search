@@ -15,11 +15,12 @@ export const SocialAuth = () => {
 
     const login = async () => {
         const provider = new firebase.auth.GoogleAuthProvider()
-        const {user} = await auth.signInWithPopup(provider)
+        const {user} = await auth.signInWithRedirect(provider)
+        user?.emailVerified
     }
     const router = useRouter()
     if (user !== checkUser) {
-        router.back()
+        router.push("/")
     }
     return (
         <div  className={styles.auth_buttons}>

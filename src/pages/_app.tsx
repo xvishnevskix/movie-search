@@ -25,6 +25,8 @@ if (firebase.apps.length === 0) {
 }
 
 
+
+
 export const Context = createContext<any|null>(null)
 
 const auth = firebase.auth()

@@ -1,27 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="firebase, material-ui-core and fixes of links">
+    <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/9112667.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Filters/Filters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filters/Filters.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/BackButton/BackButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/BackButton/BackButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UI/SocialAuth/SocialAuth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/SocialAuth/SocialAuth.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/screens/Film/Film.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/Film/Film.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/screens/Home/components/Hero/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/Home/components/Hero/Hero.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/screens/Person/components/PersonMovies/PersonMovies.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/Person/components/PersonMovies/PersonMovies.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/screens/Room/Room.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/Room/Room.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/screens/Room/components/Chat/Chat.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/Room/components/Chat/Chat.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/screens/Room/components/Chat/Chat.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/Room/components/Chat/Chat.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/screens/Room/components/Chat/components/Message/Message.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/Room/components/Chat/components/Message/Message.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/screens/Room/components/Chat/components/Message/Message.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/Room/components/Chat/components/Message/Message.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/IMessage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/IMessage.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +30,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="C:\Users\V\Downloads\MovieSearch\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -166,6 +157,7 @@
       <workItem from="1689583103817" duration="7612000" />
       <workItem from="1689925753157" duration="6364000" />
       <workItem from="1690290630568" duration="5041000" />
+      <workItem from="1690970518615" duration="3139000" />
     </task>
     <task id="LOCAL-00009" summary="chat complete">
       <created>1686139509317</created>
@@ -293,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689244431280</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="firebase, material-ui-core and fixes of links">
+      <created>1690954485821</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1690954485822</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
