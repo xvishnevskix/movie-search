@@ -16,7 +16,6 @@ export const SocialAuth = () => {
     const login = async () => {
         const provider = new firebase.auth.GoogleAuthProvider()
         const {user} = await auth.signInWithRedirect(provider)
-        user?.emailVerified
     }
     const router = useRouter()
     if (user !== checkUser) {
