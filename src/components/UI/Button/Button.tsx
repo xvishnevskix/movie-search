@@ -4,7 +4,8 @@ import classNames from 'classnames';
 import styles from './Button.module.scss';
 
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-	variant?: 'stroke' | 'regular' | 'sm';
+	variant?: 'stroke' | 'regular' | 'sm' | 'black';
+	theme?: 'dark';
 	startIcon?: ReactNode;
 	endIcon?: ReactNode;
 	animationDuration?: number;
@@ -13,6 +14,7 @@ export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 export const Button = memo<PropsWithChildren<ButtonProps>>(
 	({
 		children,
+		theme,
 		variant,
 		startIcon = null,
 		endIcon = null,
@@ -32,6 +34,7 @@ export const Button = memo<PropsWithChildren<ButtonProps>>(
 					variant === 'stroke' && styles.stroke,
 					variant === 'regular' && styles.regular,
 					variant === 'sm' && styles.small,
+					theme ==='dark' && styles.dark,
 					className
 				)}
 				{...props}

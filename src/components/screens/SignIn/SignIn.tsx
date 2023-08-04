@@ -8,11 +8,20 @@ import * as Yup from 'yup';
 import styles from './SignIn.module.scss'
 import Image from "next/image";
 import SocialAuth from "@/UI/SocialAuth/SocialAuth";
+import Loader from "@/UI/Loader/Loader";
+import React, {useContext} from "react";
+import {useCollectionData} from "react-firebase-hooks/firestore";
+import {IMessage} from "@/types/IMessage";
+import {Context} from "../../../pages/_app";
+import {useAuthState} from "react-firebase-hooks/auth";
 
 
 export const SignIn = () => {
-	const { push } = useRouter();
+	const { push, pathname } = useRouter();
 	const { Heading, TextField, Button, Link } = Auth;
+
+	const {auth} = useContext(Context)
+	const [user] = useAuthState(auth)
 
 	const schema = Yup.object().shape({
 		email: Yup.string().required('Введите email'),
@@ -37,6 +46,7 @@ export const SignIn = () => {
 		push(RoutesEnum.Home);
 		reset();
 	});
+
 
 	return (
 		<Auth onSubmit={handleLogin}>

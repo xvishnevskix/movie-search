@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="logo fix">
+    <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="add buttons and loader in room">
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Loader/Loader.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Loader/Loader.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/screens/Favourites/Favourites.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/Favourites/Favourites.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Button/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/SocialAuth/SocialAuth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/SocialAuth/SocialAuth.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/TextField/TextField.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/TextField/TextField.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/screens/Room/components/Chat/Chat.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/Room/components/Chat/Chat.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/screens/Room/components/Chat/Chat.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/Room/components/Chat/Chat.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/screens/Room/components/Chat/components/CopyToClipboard/CopyToClipboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/Room/components/Chat/components/CopyToClipboard/CopyToClipboard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/screens/SignIn/SignIn.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/SignIn/SignIn.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,17 +38,10 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Downloads/Проектики/MovieSearch/public&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;E:\\Downloads\\Проектики\\MovieSearch\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="ts.external.directory.path" value="C:\Users\V\Downloads\MovieSearch\node_modules\typescript\lib" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Downloads\Проектики\MovieSearch\public" />
@@ -45,11 +51,11 @@
       <recent name="C:\Users\V\Downloads\kinomore\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\V\Downloads\MovieSearch\src\components\UI\Loader" />
       <recent name="E:\Downloads\Проектики\MovieSearch\public\fonts" />
       <recent name="E:\Downloads\Проектики\MovieSearch\public" />
       <recent name="C:\Users\V\Downloads\MovieSearch\public\icons\auth" />
       <recent name="C:\Users\V\Downloads\MovieSearch\public" />
-      <recent name="C:\Users\V\Downloads\kinomore\public" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">

@@ -9,6 +9,9 @@ import {useAuthState} from "react-firebase-hooks/auth";
 import { Button } from '@/components/UI/Button/Button';
 import firebase from 'firebase';
 import {useCollectionData} from "react-firebase-hooks/firestore";
+import Loader from "@/UI/Loader/Loader";
+import SendIcon from '@mui/icons-material/Send';
+import {SvgIcon} from "@material-ui/core";
 
 interface ChatProps {
 	data: number | undefined;
@@ -21,13 +24,22 @@ export const Chat:FC<ChatProps> = ({data}) => {
 	const {auth, firestore} = useContext(Context)
 	const [user] = useAuthState(auth)
 
-	const [messages] = useCollectionData<IMessage>(
+	const [messages, loading] = useCollectionData<IMessage>(
 		firestore.collection(`messages${data}`).orderBy('createdAt')
 	)
 
 	const login = async () => {
 		const provider = new firebase.auth.GoogleAuthProvider()
+		provider.setCustomParameters({
+			prompt: 'select_account'
+		})
 		const {user} = await auth.signInWithRedirect(provider)
+	}
+
+	const onClickSignOut = () => {
+		if (window.confirm("Вы действительно хотите выйти из аккаунта?")) {
+			auth.signOut()
+		}
 	}
 
 	const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
@@ -55,11 +67,21 @@ export const Chat:FC<ChatProps> = ({data}) => {
 		ref.current?.scrollTo(0, ref.current.scrollHeight);
 	}, [value]);
 
+	if (loading) {
+		return (
+			<div className={styles.container}>
+				<Loader/>
+			</div>
+		)
+	}
+
 	return (
 		<div className={styles.container}>
 			<div className={styles.top}>
 				<CopyToClipboard />
+				{user ? (<Button theme="dark" variant="sm" onClick={onClickSignOut}>Выйти</Button>) : (<></>)}
 			</div>
+
 			{!user ? (<div className={styles.authButton}>
 				<Button onClick={login}>
 				<span>Пройдите авторизацию Google</span>
@@ -83,6 +105,9 @@ export const Chat:FC<ChatProps> = ({data}) => {
 							value={value}
 							onChange={handleChange}
 						/>
+						<button className={styles.sendButton}>
+								<SendIcon fontSize="small"  className={styles.sendIcon}  ></SendIcon>
+						</button>
 					</form>
 				</>)}
 		</div>

@@ -21,6 +21,12 @@ export const Header = () => {
 
 	useOnClickOutside(ref, () => toggleMenu(false));
 
+	const onClickSignOut = () => {
+		if (window.confirm("Вы действительно хотите выйти из аккаунта?")) {
+			auth.signOut()
+		}
+	}
+
 	return (
 		<header className={styles.header}>
 			<div className={classNames('container', styles.container)}>
@@ -39,7 +45,7 @@ export const Header = () => {
 						(<Link href={RoutesEnum.Home}>
 							<a
 								className={styles.link}
-								onClick={() => auth.signOut()}>
+								onClick={onClickSignOut}>
 								Выйти
 							</a>
 						</Link>)}

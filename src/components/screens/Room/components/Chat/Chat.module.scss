@@ -54,6 +54,7 @@
 	margin-right: -5px;
 	padding-right: 5px;
 
+
 	&::-webkit-scrollbar {
 		width: 5px;
 	}
@@ -79,4 +80,37 @@
 		font-size: 14px;
 		line-height: 17px;
 	}
+}
+
+.sendButton {
+	outline: none;
+	background-color: black;
+	border: 1px solid rgba(#000, 0.2);
+	border-radius: 0px 5px 5px 0px;
+	padding: 8px 18px;
+	height: 40px;
+	font-size: 14px;
+	line-height: 17px;
+	color: var(--color-text);
+	cursor: pointer;
+	transition: color 1s ease, background-color 0.3s ease, border-color 0.3s ease;
+
+		svg {
+
+			color: white;
+			transition: transform 0.4s, color 0.3s ease;
+
+		}
+
+	&:hover {
+		svg {
+			transform: translateX(4px);
+			color: var(--color-primary);
+		}
+	}
+
+}
+
+.sendIcon {
+
 }

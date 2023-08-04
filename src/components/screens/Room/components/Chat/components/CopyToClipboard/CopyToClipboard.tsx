@@ -18,7 +18,7 @@ export const CopyToClipboard: FC<ButtonHTMLAttributes<HTMLButtonElement>> = ({
 	};
 
 	return (
-		<Button variant="sm" onClick={handleCopyToClipboard} {...props}>
+		<Button variant="sm"  onClick={handleCopyToClipboard} {...props}>
 			Скопировать ссылку
 		</Button>
 	);

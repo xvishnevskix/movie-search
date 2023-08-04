@@ -89,3 +89,11 @@
 	font-size: 13px;
 	line-height: 13px;
 }
+
+.dark {
+	background-color: #262626;
+	&:hover {
+		background-color: #090505;
+
+	}
+}
