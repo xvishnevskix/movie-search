@@ -13,7 +13,7 @@ export const Favourites = () => {
 	const { data, isLoading, isFetching } = useGetFavouritesQuery({ page, filters, query });
 
 	const { Container, Heading, Description, Body, Content, Subtitle } = Catalog;
-
+	console.log(query)
 	return (
 		<Catalog>
 			<Container>
@@ -21,10 +21,11 @@ export const Favourites = () => {
 				<Description>Список избранного кино</Description>
 				<Body>
 					<Filters />
-					{query ? (
-						<Content data={data} isLoading={isLoading} isFetching={isFetching} />
+					{query.length===0 ? (
+						<Subtitle>Ваш писок избранного пуст</Subtitle>
 					) : (
-						<Subtitle>Список избранного пуст</Subtitle>
+						<Content data={data} isLoading={isLoading} isFetching={isFetching} />
+
 					)}
 				</Body>
 			</Container>

@@ -4,9 +4,10 @@
 	display: inline-block;
 	width: 119px;
 	height: 24px;
+	flex-shrink: 0;
 
 	@media (max-width: 768px) {
-		width: 100px;
-		height: 19px;
+		width: 89px;
+		height: 18px;
 	}
 }

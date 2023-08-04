@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="logo fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Logo/Logo.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Logo/Logo.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/screens/Favourites/Favourites.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/Favourites/Favourites.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +161,7 @@
       <workItem from="1690290630568" duration="5041000" />
       <workItem from="1690970518615" duration="4847000" />
       <workItem from="1691074846838" duration="1531000" />
-      <workItem from="1691116180553" duration="5947000" />
+      <workItem from="1691116180553" duration="6617000" />
     </task>
     <task id="LOCAL-00009" summary="chat complete">
       <created>1686139509317</created>
@@ -310,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691129520428</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="logo fix">
+      <created>1691130308751</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1691130308751</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
