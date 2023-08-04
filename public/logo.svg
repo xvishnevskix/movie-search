@@ -1,11 +1,52 @@
-<svg id="eIq7JPb9N0S1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 118 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" width="118" height="24"><text dx="0" dy="0" font-family="&quot;Roboto&quot;" font-size="3.55" font-weight="700" transform="matrix(4.85 0 0 8.8-.376483 22.936893)" fill="#fff" stroke-width="0"><tspan y="0" font-weight="700" stroke-width="0"><![CDATA[
-MOVIE
-]]></tspan></text><text dx="0" dy="0" font-family="&quot;Roboto&quot;" font-size="3.55" font-weight="700" transform="matrix(4.85 0 0 8.8 52.123596 22.93165)" fill="#005382" stroke-width="0"><tspan y="0" font-weight="700" stroke-width="0"><![CDATA[
-SEARCH
-]]></tspan></text></svg>
-
-
-
-
-
-
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="eIq7JPb9N0S1"
+   viewBox="0 0 118 24"
+   shape-rendering="geometricPrecision"
+   text-rendering="geometricPrecision"
+   width="118"
+   height="24"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3241" />
+  <g
+     id="layer2"
+     style="display:inline">
+    <text
+       dx="0"
+       dy="0"
+       font-family="Roboto"
+       font-size="23.1921px"
+       font-weight="700"
+       transform="scale(0.74238559,1.3470089)"
+       fill="#ffffff"
+       stroke-width="0"
+       id="text3232"
+       x="-1.1618336"
+       y="17.340714"><tspan
+         y="17.340714"
+         font-weight="700"
+         stroke-width="0"
+         id="tspan3230"><![CDATA[MOVIE]]></tspan></text>
+    <text
+       dx="0"
+       dy="0"
+       font-family="Roboto"
+       font-size="23.1921px"
+       font-weight="700"
+       transform="scale(0.74238559,1.3470089)"
+       fill="#005382"
+       stroke-width="0"
+       id="text3236"
+       style="fill:#005180;fill-opacity:1"
+       x="69.556236"
+       y="17.259298"><tspan
+         y="17.259298"
+         font-weight="700"
+         stroke-width="0"
+         id="tspan3234"
+         style="fill:#005180;fill-opacity:1"><![CDATA[SEARCH]]></tspan></text>
+  </g>
+</svg>
