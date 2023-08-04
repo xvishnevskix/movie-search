@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="Method rejection signInWithPopup in firebase">
+    <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="Google auth started">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/SocialAuth/SocialAuth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/SocialAuth/SocialAuth.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_fonts.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,22 +26,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="ts.external.directory.path" value="C:\Users\V\Downloads\MovieSearch\node_modules\typescript\lib" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Downloads/Проектики/MovieSearch/public&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\Downloads\\Проектики\\MovieSearch\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Downloads\Проектики\MovieSearch\public" />
+      <recent name="E:\Downloads\Проектики\MovieSearch\public\fonts" />
       <recent name="C:\Users\V\Downloads\MovieSearch\public" />
       <recent name="E:\Downloads\Проектики\MovieSearch\public\icons\auth" />
       <recent name="C:\Users\V\Downloads\kinomore\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Downloads\Проектики\MovieSearch\public\fonts" />
+      <recent name="E:\Downloads\Проектики\MovieSearch\public" />
       <recent name="C:\Users\V\Downloads\MovieSearch\public\icons\auth" />
       <recent name="C:\Users\V\Downloads\MovieSearch\public" />
       <recent name="C:\Users\V\Downloads\kinomore\public" />
@@ -155,6 +161,8 @@
       <workItem from="1689925753157" duration="6364000" />
       <workItem from="1690290630568" duration="5041000" />
       <workItem from="1690970518615" duration="4847000" />
+      <workItem from="1691074846838" duration="1531000" />
+      <workItem from="1691116180553" duration="4861000" />
     </task>
     <task id="LOCAL-00009" summary="chat complete">
       <created>1686139509317</created>
