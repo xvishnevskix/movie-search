@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="Google auth started">
+    <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="logo fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Logo/Logo.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Logo/Logo.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +161,7 @@
       <workItem from="1690290630568" duration="5041000" />
       <workItem from="1690970518615" duration="4847000" />
       <workItem from="1691074846838" duration="1531000" />
-      <workItem from="1691116180553" duration="4861000" />
+      <workItem from="1691116180553" duration="5947000" />
     </task>
     <task id="LOCAL-00009" summary="chat complete">
       <created>1686139509317</created>
@@ -304,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690986812838</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="logo fix">
+      <created>1691129520428</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1691129520428</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,6 +352,7 @@
     <MESSAGE value="some fixes" />
     <MESSAGE value="firebase, material-ui-core and fixes of links" />
     <MESSAGE value="Method rejection signInWithPopup in firebase" />
-    <option name="LAST_COMMIT_MESSAGE" value="Method rejection signInWithPopup in firebase" />
+    <MESSAGE value="logo fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="logo fix" />
   </component>
 </project>
