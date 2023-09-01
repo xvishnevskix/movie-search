@@ -14,17 +14,15 @@ import 'firebase/auth'
 
 if (firebase.apps.length === 0) {
 	firebase.initializeApp({
-		apiKey: "AIzaSyCqHJpYWaTqkZiDor4Y5pXCU6MKaWdXrWM",
-		authDomain: "movie-search-chat.firebaseapp.com",
-		projectId: "movie-search-chat",
-		storageBucket: "movie-search-chat.appspot.com",
-		messagingSenderId: "301171031321",
-		appId: "1:301171031321:web:ce0a92c527627335ac1988",
-		measurementId: "G-FFXBQFSBS1"
+		apiKey: "AIzaSyC6J5888YxVjYua0pErnsN4UWOMJaFDvy8",
+		authDomain: "moviesearch-8b465.firebaseapp.com",
+		projectId: "moviesearch-8b465",
+		storageBucket: "moviesearch-8b465.appspot.com",
+		messagingSenderId: "604533667018",
+		appId: "1:604533667018:web:ad9255ba016da0118f3033",
+		measurementId: "G-W6RCX8TN7D"
 	});
 }
-
-
 
 
 export const Context = createContext<any|null>(null)
