@@ -97,7 +97,7 @@ function kbp(self) {
 
     var options_url = options.url ?
         decodeURIComponent(options.url).trim() + (decodeURIComponent(options.url).indexOf('?') + 1 ? '&' : '?') + 'cache' + Math.random().toString().substr(2, 3) :
-        'https://kinobd.ru/playerdata?c' + Math.random().toString().substr(2, 3);
+        'https://kinobd.club/playerdata?c' + Math.random().toString().substr(2, 3);
     options.url = null;
 
     var options_loading = options.loading ?
@@ -535,7 +535,7 @@ function kb_ping(provider, loadtime = null) {
             }
         }
     };
-    KbXmlHttp.open('POST', 'https://kinobd.ru/ping', true);
+    KbXmlHttp.open('POST', 'https://kinobd.club/ping', true);
     KbXmlHttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     KbXmlHttp.setRequestHeader('X-Re', window.location.href);
     KbXmlHttp.send(body);
