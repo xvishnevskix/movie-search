@@ -14,13 +14,13 @@ import 'firebase/auth'
 
 if (firebase.apps.length === 0) {
 	firebase.initializeApp({
-		apiKey: "AIzaSyC6J5888YxVjYua0pErnsN4UWOMJaFDvy8",
-		authDomain: "moviesearch-8b465.firebaseapp.com",
-		projectId: "moviesearch-8b465",
-		storageBucket: "moviesearch-8b465.appspot.com",
-		messagingSenderId: "604533667018",
-		appId: "1:604533667018:web:ad9255ba016da0118f3033",
-		measurementId: "G-W6RCX8TN7D"
+		apiKey: "AIzaSyDGj_HMg-wylMzlkm1nHhRficWmVZHC_Ik",
+		authDomain: "movie-search-1e321.firebaseapp.com",
+		projectId: "movie-search-1e321",
+		storageBucket: "movie-search-1e321.appspot.com",
+		messagingSenderId: "198649238101",
+		appId: "1:198649238101:web:a5f0496dc9000f2fa8fadc",
+		measurementId: "G-70W5TXLX2T"
 	});
 }
 
