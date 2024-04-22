@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="">
+    <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="firebase update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
   <component name="ProjectId" id="2QsPXG1laK6eaYNVrG6h0jQvkcR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -27,11 +32,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "E:\\Downloads\\Проектики\\MovieSearch\\node_modules\\typescript\\lib",
+    "npm.dev.executor": "Run",
+    "ts.external.directory.path": "D:\\Projects\\MovieSearch\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -59,6 +70,7 @@
         <script value="dev" />
       </scripts>
       <node-interpreter value="project" />
+      <package-manager value="npm" />
       <envs />
       <method v="2" />
     </configuration>
@@ -164,7 +176,10 @@
       <workItem from="1691164528013" duration="1228000" />
       <workItem from="1695030931589" duration="4830000" />
       <workItem from="1695106973950" duration="9730000" />
-      <workItem from="1698421804689" duration="705000" />
+      <workItem from="1698421804689" duration="1388000" />
+      <workItem from="1699180411516" duration="43000" />
+      <workItem from="1699189859647" duration="746000" />
+      <workItem from="1713780765973" duration="1171000" />
     </task>
     <task id="LOCAL-00009" summary="chat complete">
       <created>1686139509317</created>
@@ -341,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693560584404</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="firebase update">
+      <created>1698422601277</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1698422601277</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,8 +410,8 @@
     <MESSAGE value="Method rejection signInWithPopup in firebase" />
     <MESSAGE value="logo fix" />
     <MESSAGE value="Favourites fix query" />
-    <MESSAGE value="firebase update" />
     <MESSAGE value="stories fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="stories fix" />
+    <MESSAGE value="firebase update" />
+    <option name="LAST_COMMIT_MESSAGE" value="firebase update" />
   </component>
 </project>
