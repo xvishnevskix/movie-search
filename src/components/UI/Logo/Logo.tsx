@@ -14,7 +14,7 @@ export const Logo: FC<LogoProps> = ({ className }) => {
 			<a className={classNames(styles.logo, className)}>
 				{/*<Image unoptimized layout="fill" src="/logo.svg" alt="MovieSearch" />*/}
 				<span className={classNames(styles.movie, className)}>
-					Movie sdadasdas
+					Movie
 				</span>
 				<span className={classNames(styles.search, className)}>Search</span>
 			</a>

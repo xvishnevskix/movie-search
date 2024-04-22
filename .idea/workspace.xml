@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="firebase update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2QsPXG1laK6eaYNVrG6h0jQvkcR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "npm.dev.executor": "Run",
+    "ts.external.directory.path": "D:\\Projects\\MovieSearch\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Downloads\Проектики\MovieSearch\public" />
+      <recent name="E:\Downloads\Проектики\MovieSearch\public\fonts" />
+      <recent name="C:\Users\V\Downloads\MovieSearch\public" />
+      <recent name="E:\Downloads\Проектики\MovieSearch\public\icons\auth" />
+      <recent name="C:\Users\V\Downloads\kinomore\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Downloads\Проектики\MovieSearch\public\fonts" />
+      <recent name="E:\Downloads\Проектики\MovieSearch\public" />
+      <recent name="C:\Users\V\Downloads\MovieSearch\public\icons\auth" />
+      <recent name="C:\Users\V\Downloads\MovieSearch\public" />
+      <recent name="C:\Users\V\Downloads\kinomore\public" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="npm" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task id="LOCAL-00001" summary="add buttons load more, some refactoring &amp; update player">
+      <created>1685706369472</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685706369472</updated>
+    </task>
+    <task id="LOCAL-00002" summary="page lists complete">
+      <created>1685707238806</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685707238806</updated>
+    </task>
+    <task id="LOCAL-00003" summary="radio buttons in filters">
+      <created>1685960746721</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685960746721</updated>
+    </task>
+    <task id="LOCAL-00004" summary="window filters complete">
+      <created>1685960894473</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685960894473</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix fonts">
+      <created>1686038384493</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686038384493</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix slider">
+      <created>1686038488793</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686038488793</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update page film">
+      <created>1686038683189</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686038683189</updated>
+    </task>
+    <task id="LOCAL-00008" summary="some fixes">
+      <created>1686039100630</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686039100630</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3601358-7a83-4f30-a557-c15552e7965e" name="Changes" comment="" />
+      <created>1686139375006</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686139375006</updated>
+      <workItem from="1686139381736" duration="757000" />
+      <workItem from="1686203267520" duration="2565000" />
+      <workItem from="1686744069997" duration="3159000" />
+      <workItem from="1687517111339" duration="986000" />
+      <workItem from="1688449986909" duration="3323000" />
+      <workItem from="1688466314074" duration="588000" />
+      <workItem from="1688466950561" duration="310000" />
+      <workItem from="1688468142459" duration="9591000" />
+      <workItem from="1688710733409" duration="19009000" />
+      <workItem from="1689050915779" duration="15198000" />
+      <workItem from="1689230768714" duration="131000" />
+      <workItem from="1689230964655" duration="9855000" />
+      <workItem from="1689583103817" duration="7612000" />
+      <workItem from="1689925753157" duration="6364000" />
+      <workItem from="1690290630568" duration="5041000" />
+      <workItem from="1690970518615" duration="4847000" />
+      <workItem from="1691074846838" duration="1531000" />
+      <workItem from="1691116180553" duration="7532000" />
+      <workItem from="1691164528013" duration="1228000" />
+      <workItem from="1695030931589" duration="4830000" />
+      <workItem from="1695106973950" duration="9730000" />
+      <workItem from="1698421804689" duration="1388000" />
+      <workItem from="1699180411516" duration="43000" />
+      <workItem from="1699189859647" duration="746000" />
+      <workItem from="1713780765973" duration="1171000" />
+    </task>
+    <task id="LOCAL-00009" summary="chat complete">
+      <created>1686139509317</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686139509317</updated>
+    </task>
+    <task id="LOCAL-00010" summary="swiper buttons">
+      <created>1686203370364</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686203370364</updated>
+    </task>
+    <task id="LOCAL-00011" summary="swipeable filter">
+      <created>1686203731309</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1686203731310</updated>
+    </task>
+    <task id="LOCAL-00012" summary="page favourites complete">
+      <created>1686204305617</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686204305618</updated>
+    </task>
+    <task id="LOCAL-00013" summary="page favourites complete">
+      <created>1686204601683</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1686204601683</updated>
+    </task>
+    <task id="LOCAL-00014" summary="some refactoring">
+      <created>1686204656101</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1686204656101</updated>
+    </task>
+    <task id="LOCAL-00015" summary="some refactoring">
+      <created>1686744455628</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1686744455628</updated>
+    </task>
+    <task id="LOCAL-00016" summary="some fixes">
+      <created>1686744525577</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1686744525577</updated>
+    </task>
+    <task id="LOCAL-00017" summary="refactoring slider &amp; some fixes">
+      <created>1686744624307</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1686744624307</updated>
+    </task>
+    <task id="LOCAL-00018" summary="some fixes: some refactoring &amp; ripple effect for buttons">
+      <created>1687254506973</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1687254506973</updated>
+    </task>
+    <task id="LOCAL-00019" summary="swiped events">
+      <created>1687517474645</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1687517474645</updated>
+    </task>
+    <task id="LOCAL-00020" summary="storybook">
+      <created>1688450323432</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1688450323432</updated>
+    </task>
+    <task id="LOCAL-00021" summary="refactoring pagination">
+      <created>1688450898291</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1688450898291</updated>
+    </task>
+    <task id="LOCAL-00022" summary="search list">
+      <created>1688451161200</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1688451161200</updated>
+    </task>
+    <task id="LOCAL-00023" summary="hook useDebounce">
+      <created>1688452709243</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1688452709243</updated>
+    </task>
+    <task id="LOCAL-00024" summary="some fixes and refactoring">
+      <created>1688453264378</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1688453264378</updated>
+    </task>
+    <task id="LOCAL-00025" summary="refactoring and fix MovieSearchService.ts">
+      <created>1689243592436</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1689243592437</updated>
+    </task>
+    <task id="LOCAL-00026" summary="some fixes">
+      <created>1689244431280</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1689244431280</updated>
+    </task>
+    <task id="LOCAL-00027" summary="firebase, material-ui-core and fixes of links">
+      <created>1690954485821</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1690954485822</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Method rejection signInWithPopup in firebase">
+      <created>1690986812838</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1690986812838</updated>
+    </task>
+    <task id="LOCAL-00029" summary="logo fix">
+      <created>1691129520428</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1691129520428</updated>
+    </task>
+    <task id="LOCAL-00030" summary="logo fix">
+      <created>1691130308751</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1691130308751</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Favourites fix query">
+      <created>1691131278180</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1691131278180</updated>
+    </task>
+    <task id="LOCAL-00032" summary="firebase update">
+      <created>1693560143980</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1693560143981</updated>
+    </task>
+    <task id="LOCAL-00033" summary="stories fix">
+      <created>1693560584404</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1693560584404</updated>
+    </task>
+    <task id="LOCAL-00034" summary="firebase update">
+      <created>1698422601277</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1698422601277</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/.storybook/main.js" />
+        <option value="$PROJECT_DIR$/.storybook/preview.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="window filters complete" />
+    <MESSAGE value="fix fonts" />
+    <MESSAGE value="fix slider" />
+    <MESSAGE value="update page film" />
+    <MESSAGE value="chat complete" />
+    <MESSAGE value="swiper buttons" />
+    <MESSAGE value="swipeable filter" />
+    <MESSAGE value="page favourites complete" />
+    <MESSAGE value="some refactoring" />
+    <MESSAGE value="refactoring slider &amp; some fixes" />
+    <MESSAGE value="some fixes: some refactoring &amp; ripple effect for buttons" />
+    <MESSAGE value="swiped events" />
+    <MESSAGE value="storybook" />
+    <MESSAGE value="refactoring pagination" />
+    <MESSAGE value="search list" />
+    <MESSAGE value="hook useDebounce" />
+    <MESSAGE value="some fixes and refactoring" />
+    <MESSAGE value="refactoring and fix MovieSearchService.ts" />
+    <MESSAGE value="some fixes" />
+    <MESSAGE value="firebase, material-ui-core and fixes of links" />
+    <MESSAGE value="Method rejection signInWithPopup in firebase" />
+    <MESSAGE value="logo fix" />
+    <MESSAGE value="Favourites fix query" />
+    <MESSAGE value="stories fix" />
+    <MESSAGE value="firebase update" />
+    <option name="LAST_COMMIT_MESSAGE" value="firebase update" />
+  </component>
+</project>
