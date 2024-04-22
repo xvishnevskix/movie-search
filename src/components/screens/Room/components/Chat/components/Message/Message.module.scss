@@ -1,0 +1,46 @@
+.message {
+	background-color: var(--color-light-dark);
+	color: var(--color-white);
+	padding: 17px 14px;
+	border-radius: 5px;
+	overflow: hidden;
+
+	&:not(:last-child) {
+		margin-bottom: 10px;
+	}
+}
+
+.top {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.bottom {
+	display: flex;
+	justify-content: space-between;
+}
+
+.name {
+	padding-top: 4px;
+	padding-left: 9px;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 15px;
+}
+
+.text {
+	padding-left: 49px;
+	margin: 0;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	word-break: break-all;
+}
+
+.time {
+	display: block;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 15px;
+	color: rgba(#fff, 0.5);
+}

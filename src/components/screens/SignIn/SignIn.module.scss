@@ -1,0 +1,24 @@
+.auth_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+
+}
+
+.google {
+
+  align-items: center;
+  background-image: url("https://img.icons8.com/color/48/google-logo.png");
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffffff;
+  border: solid 1px #eeeeee;
+
+  border-radius: 7px;
+
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}

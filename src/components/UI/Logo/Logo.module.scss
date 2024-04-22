@@ -1,0 +1,23 @@
+.logo {
+	position: relative;
+	z-index: 2;
+	display: inline-block;
+	width: 119px;
+	height: 24px;
+	flex-shrink: 0;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none; /* Убираем подчеркивание */
+	color: white;
+	@media (max-width: 768px) {
+		width: 89px;
+		height: 18px;
+	}
+
+	.movie {
+		color: white;
+	}
+	.search {
+		color: #004b76;
+	}
+}
