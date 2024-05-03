@@ -48,7 +48,7 @@ export const movieSearchAPI = createApi({
 		}),
 		getFilmsBySearch: build.query<IMovies, IBaseQuery>({
 			query: ({ query, type, limit }) =>
-				`/v1.3/movie?search=${query}&field=name&limit=${limit}&sortField=year&sortType=-1&field=typeNumber&search=${type}&isStrict=true&token=${API_KEY}`,
+				`/v1.4/movie/search?&field=name&limit=${limit}&query=${query}&sortField=year&sortType=-1&field=typeNumber&search=${type}&isStrict=true&token=${API_KEY}`,
 		}),
 		getReviewsById: build.query<IReviews, IBaseQuery>({
 			query: ({ id, limit }) =>
